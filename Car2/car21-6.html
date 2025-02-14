@@ -1,0 +1,110 @@
+﻿<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>CAR PART 2 Module 1</title>
+		<link href="../css/ModuleStyle.css" rel="stylesheet" type="text/css">	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">	
+			function goBack() {
+    			window.history.back();
+			}
+		
+			function unhide(divID) {
+				var item = document.getElementById(divID);
+				if (item) {
+					item.className=(item.className=='hidden')?'unhidden':'hidden';
+				}
+			}
+			
+			$(document).ready(function() {
+				$("#step32").click(function(){$("#step32Y").toggleClass("stepHighlightOn");})
+			});
+				
+			
+		</script>
+	</head>
+
+<body>
+	<div id="content">
+		<section id="headerBanner">
+			<header role="banner">
+				<a href="../lessons.html"><img src="../images/banner.png" alt="Albany Medical College Virtual Anatomy Lab" width="100%"></a>
+			</header>
+		</section>
+		
+		<section id="mainContent">
+			<h2>SECTRA TABLE WORK: Page 6 of 6</h2>
+			
+			<a href="#_" class="lightbox" id="Landmarks"><img src="images/landmarks.jpg" alt="landmarks"/></a>
+			
+			<table class="lessonStepsTable">
+				<tbody>
+					<tr height="60px;">
+						<td valign="top" width="96px;" rowspan="3"><button class="actionButton" id="step32"><a href="https://www.vhdissector.com/share/kbcavf" title="Diaphragm and rib cage" style="color: white;">Step 32</a></button></td>
+						<td valign="top" style="padding-top: 3px;"><span class="stepHighlightOff" id="step32Y">Using the <span style="font-weight: bold">Draw tool</span>, circle the location of the valves on the surface of the heart.</span></td>
+						<td align="center" rowspan="2"><a href="#Landmarks"><img src="images/landmarks.jpg" alt="landmarks" class="thumbnail" /></a><span style="font-size: 10pt;">Tap on image to enlarge</span></td>
+					</tr>
+					<tr height="120px;">
+						<td valign="top" width="200px">
+							<a href="javascript:unhide('checkwork1');" style="text-decoration: none; font-weight: 200; color: #1e62d0;">Tap here to check your work.</a>
+							
+						</td>	
+					</tr>
+				</tbody>
+			</table>
+			<table class="lessonStepsTable">
+				<tbody>
+					<tr>
+						<td valign="top"><div id="checkwork1" class="hidden"><img src="images/hintStep32.gif" alt="Tap to check your work"/></div>
+						</td>	
+					</tr>
+				</tbody>
+			</table>	
+
+			<table class="questionBox" style="margin: 1em auto; margin-bottom: 24px; margin-top: 24px; width: 100%;">
+				<tbody>
+					<tr valign="middle">
+						<td width="40px;"><button class="answerButton" onClick="unhide('Q1')">?</button></td>
+						<td><p style="padding-left: 12px;">Knowing the the anatomical locations of these valves, why is the stethescope placed on the chest in areas different than where the valves are actually located?</p></td>
+					</tr>
+					
+					<tr>
+						<td colspan="2">
+							<div id="Q1" class="hidden">
+								<p class="questionBoxAnswer">The heart sounds that you hear are vibrations that travel with the flow of blood. Therefore you listen to heart sounds down stream from where the valves are actually located. See the below drawing to understand phenommenon.</p>
+								<p class="questionBoxAnswer"><img src="images/auscultation.jpg" alt="Auscultation"></p>
+								<p class="questionBoxAnswer"><img src="images/hint1.gif" alt="AuscultationDrawing"></p>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+			<table class="continueButtons" style="margin-top:100px;">
+				<tbody>
+				<tr height="200px" valign="top">
+		         	<td align="left"><button class="button" onclick="goBack()">Back</button></td>
+					<td align="center"><a href="../lessons.html"><button class="button">Return to Lessons Index</button></a></td>
+		        	<td align="right"><a href="car21-1.html"><button class="button">Return to start</button></a></td></tr>
+		 		</tbody>
+			</table>
+
+		</section>
+	</div>
+</body>
+
+
+
+<footer>
+	<div id="footerContent">
+		<p>©AMC 2021 Version 2021.01.01<br>
+		Original Development by Jeffrey Fahl, MD, Kyle Petersen, PhD, Richard Drake, PhD,  Alesha Petitt, MA, Claira Ralston, MS and Kim Price, MA<br>
+		Modified by Jeffrey Fahl, MD, Michael Smith, PhD<br>
+		Figures used with permission from Drake: Gray's Atlas of Anatomy, 2nd Edition (Resources)</p>
+
+	</div>
+</footer>
+
+</html>
