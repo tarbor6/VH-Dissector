@@ -1,0 +1,180 @@
+﻿<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>GAS1 Lab 3: Oral Cavity</title>
+	<link href="../css/ModuleStyle.css" rel="stylesheet" type="text/css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">
+		function goBack() {
+    		window.history.back();
+		}
+		
+		function unhide(divID) {
+			let item = document.getElementById(divID);
+			if (item) {
+				item.className=(item.className=='hidden')?'unhidden':'hidden';
+			}
+		}
+		
+		$(function () {
+        	$("#chkYes").click(function () {
+            	if ($(this).is(":checked")) {
+					$("#dvYes").show();
+				} else {
+					$("#dvYes").hide();
+            	}
+			});
+		});
+
+    	$(function () {
+			$("#chkNo").click(function () {
+            	if ($(this).is(":checked")) {
+               	 $("#dvNo").show();
+				} else {
+                	$("#dvNo").hide();
+				}
+        	});
+		});
+		
+	</script>
+	
+</head>
+
+<body>
+	<div id="content">
+				
+		<section id="headerContent">
+			<header role="banner" id="top">
+				<a href="../lessons.html"><img src="../images/banner.png" alt="Albany Medical College Virtual Anatomy Lab"></a>
+				<h3>Oral Cavity: Module 1 - Page 2 of 6</h3>
+			</header>
+		</section>
+			
+		<section id="mainContent">
+		
+			<p class="lessonText">Now let's look at the tongue.</p>
+			<img src="images/tongue.jpg" alt="tongue" />
+		
+							
+			<table class="lessonStepsTable">
+				<tbody>
+					<tr height="60px;">
+						<td valign="top" width="100px;"><a href="https://www.vhdissector.com/share/g6strh" title="genioglossus muscle" style="color: white;"><button class="actionButton">Step 7</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">genioglossus muscle</span>.</td>
+					</tr>
+				</tbody>
+			</table>
+
+								
+			<table class="lessonStepsTable">
+				<tbody>
+					<tr height="60px;">
+						<td valign="top" width="100px;"><a href="https://www.vhdissector.com/share/26tsgz" title="hyoglossus muscle" style="color: white;"><button class="actionButton">Step 8</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">hyoglossus muscle</span>.</td>
+					</tr>
+				</tbody>
+			</table>
+
+								
+			<table class="lessonStepsTable">
+				<tbody>
+					<tr height="60px;">
+						<td valign="top" width="100px;"><a href="https://www.vhdissector.com/share/8pneht" title="styloglossus muscle" style="color: white;"><button class="actionButton">Step 9</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">styloglossus muscle</span>.</td>
+					</tr>
+				</tbody>
+			</table>
+
+						
+			<table class="lessonStepsTable">
+				<tbody>
+					<tr height="60px;">
+						<td valign="top" width="100px;"><a href="https://www.vhdissector.com/share/yupjmp" title="transverse muscles" style="color: white;"><button class="actionButton">Step 10</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">transverse muscles</span> of the tongue.</td>
+					</tr>
+				</tbody>
+			</table>
+
+								
+			<table class="lessonStepsTable">
+				<tbody>
+					<tr height="60px;">
+						<td valign="top" width="100px;"><a href="https://www.vhdissector.com/share/ypmemc" title="root" style="color: white;"><button class="actionButton">Step 11</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">root</span> of the tongue.</td>
+					</tr>
+				</tbody>
+			</table>
+
+							
+			<table class="lessonStepsTable">
+				<tbody>
+					<tr height="60px;">
+						<td valign="top" width="100px;"><a href="https://www.vhdissector.com/share/h3undn" title="body" style="color: white;"><button class="actionButton">Step 12</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">body</span> of the tongue.</td>
+					</tr>
+				</tbody>
+			</table>
+
+			
+						
+			<table class="questionBox" style="margin: 1em auto; margin-bottom: 24px; margin-top: 24px; width: 100%;">
+				<tbody>
+					<tr valign="middle">
+						<td width="40px;"><button class="answerButton" onClick="unhide('Q2')">?</button></td>
+						<td><p style="padding-left: 12px;">Besides taste, temperature sensation and making funny faces at your friends, what is the function of the tongue?</p></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<div id="Q2" class="hidden">
+								<p class="questionBoxAnswer">Moves food around in the oral cavity and along with mastication prepares a bolus of food to be swallowed.</p>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			
+			
+			<table class="questionBox" style="margin: 1em auto; margin-bottom: 24px; margin-top: 24px; width: 100%;">
+				<tbody>
+					<tr valign="middle">
+						<td width="40px;"><button class="answerButton" onClick="unhide('Q3')">?</button></td>
+						<td><p style="padding-left: 12px;">What nerve innervates the muscular control of the tongue?</p></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<div id="Q3" class="hidden">
+								<p class="questionBoxAnswer">Hypoglossal CN XII.</p>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+
+
+			<table class="continueButtons">
+				<tbody>
+					<tr height="200px" valign="top">
+						<td align="left"><button class="button" onclick="goBack()">Back</button></td>
+						<td align="center"><a href="../lessons.html"><button class="button">Return to Lessons Index</button></a></td>
+						<td align="right"><a href="gas1w3m1c.html"><button class="button">Continue</button></a></td>
+					</tr>
+				 </tbody>
+				</table>
+
+		</section>
+	</div>
+</body>
+
+<footer>
+	<div id="footerContent">
+		<p>©UNLV School of Medicine 2018 Version 1.0</p>
+		<p>Developed by Jeffrey Fahl, MD, Kyle Petersen, PhD, Richard Drake, PhD,  Alesha Petitt, MA, Claira Ralston, MS, and Kim Price, MA</p>
+		<p>Figures used with permission from Drake: Gray's Atlas of Anatomy, 2nd Edition (Resources)</p>
+	</div>
+</footer>
+</html>

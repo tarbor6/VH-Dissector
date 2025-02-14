@@ -1,0 +1,196 @@
+﻿<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>GAS1 Lab 3: Oral Cavity</title>
+	<link href="../css/ModuleStyle.css" rel="stylesheet" type="text/css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">
+		function goBack() {
+    		window.history.back();
+		}
+		
+		function unhide(divID) {
+			var item = document.getElementById(divID);
+			if (item) {
+				item.className=(item.className=='hidden')?'unhidden':'hidden';
+			}
+		}
+		
+		$(function () {
+        	$("#chkYes").click(function () {
+            	if ($(this).is(":checked")) {
+					$("#dvYes").show();
+				} else {
+					$("#dvYes").hide();
+            	}
+			});
+		});
+
+    	$(function () {
+			$("#chkNo").click(function () {
+            	if ($(this).is(":checked")) {
+               	 $("#dvNo").show();
+				} else {
+                	$("#dvNo").hide();
+				}
+        	});
+		});
+		
+	</script>
+	
+</head>	
+
+
+<body>
+	<div id="content">
+		<section id="headerContent">
+			<header role="banner" id="top">
+				<a href="../lessons.html"><img src="../images/banner.png" alt="Albany Medical College Virtual Anatomy Lab"></a>
+				<h3>Oral Cavity Module 2: Page 2 of 3</h3>
+			</header>
+		</section>	
+		
+		<section id="mainContent">
+				<table>
+					<tbody>
+						<tr>
+							<td valign="top" style="padding-top: 18px" width="30%"><p class="lessonText">Notice the position of the muscles and pharynx during resting breathing:</p></td>		
+							<td valign="top"><img src="images/breathing.jpg" alt="breathing" /></td>
+						</tr>
+
+						<tr>
+							<td valign="top" style="padding-top: 24px" width="30%">
+								<p class="lessonText">Notice the position of the muscles and pharynx during breathing while chewing:</p>
+								
+				
+				<table class="questionBox" style="margin: 1em auto; margin-bottom: 24px; margin-top: 24px; width: 100%;">
+				<tbody>
+					<tr valign="middle">
+						<td width="40px;"><button class="answerButton" onClick="unhide('Q2')">?</button></td>
+						<td><p style="padding-left: 12px;">What muscle contracts to elevate the base of the tongue?</p></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<div id="Q2" class="hidden">
+								<p class="questionBoxAnswer">The palatoglossus muscle innervated by CN X.</p>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+							</td>		
+							<td valign="top">
+								<img src="images/breathingwithfood.jpg" alt="breathing with food" />
+							</td>
+								</tr>
+
+						<tr>
+							<td valign="top" style="padding-top: 24px" width="30%">
+								<p class="lessonText">Notice what happens during a swallow:</p>
+
+							</td>		
+							<td valign="top">
+								<img src="images/swallow2.jpg" alt="swallow2" />
+							</td>
+						</tr>
+					</tbody>
+				</table>		
+						<h4>Let's look at the swallowing sequence on a series of radiographs taken as part of a video swallowing study.</h4>
+					
+				<table>
+					<tbody>	
+						<tr>
+							
+							<td valign="top" style="padding-top: 24px" width="30%">
+								<ol start="1">
+									<li class="lessonText">Chewing and moisurizing food and preparing a bolous of food for swallowing</li>
+								</ol>
+							</td>		
+							<td valign="top">
+								<img src="images/baseline.jpg" alt="baseline" />
+							</td>
+						</tr>	
+						
+						<tr>
+							<td valign="top" style="padding-top: 24px" width="30%">
+								<ol start="2">
+									<li class="lessonText">Elevation and closure of the nasopharynx. Try to identify the position of the tongue and other muscles in the naso and oropharynx.</li>
+								</ol>
+							</td>		
+							<td valign="top">
+								<img src="images/palate-elevation.jpg" alt="elevation" />
+							</td>
+						</tr>
+						
+						<tr>
+							<td valign="top" style="padding-top: 24px" width="30%">
+								<ol start="3">
+									<li class="lessonText">Moving of the bolus of food to the oropharynx. Notice the dark material moved to the oropharynx.</li>
+								</ol>
+							</td>		
+							<td valign="top">
+								<img src="images/bolus.jpg" alt="bolus" />
+							</td>
+						</tr>
+						
+						<tr>
+							<td valign="top" style="padding-top: 24px" width="30%">
+								<ol start="4">
+									<li class="LessonText">The dark material has moved further down the oropharynx.</li>
+									<li class="lessonText">Constriction of the pharynx and downward forcing of the food bolous.</li>
+									<li class="lessonText">Closure of the laynx as the food passes through the layngopharynx.</li>
+									
+								</ol>
+							</td>		
+							<td valign="top">
+								<img src="images/epiglottis-no-label.jpg" alt="epiglottus" />
+							</td>
+						</tr>
+					</tbody>
+				</table>
+							
+			<table class="questionBox" style="margin: 1em auto; margin-bottom: 24px; margin-top: 24px; width: 100%;">
+				<tbody>
+					<tr valign="middle">
+						<td width="40px;"><button class="answerButton" onClick="unhide('Q1')">?</button></td>
+						<td><p style="padding-left: 12px;">Can you spot the epigottis in the above image?</p></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<div id="Q1" class="hidden">
+								<p class="questionBoxAnswer"><img src="images/epiglottis.jpg" alt="draw" width="96%"></p>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+
+				<table class="continueButtons">
+					<tbody>
+						<tr height="200px" valign="top">
+						<td align="left"><button class="button" onclick="goBack()">Back</button></td>
+						<td align="center"><a href="../lessons.html"><button class="button">Return to Lessons Index</button></a></td>
+						<td align="right"><a href="gas1w3m2c.html"><button class="button">Continue</button></a></td></tr>
+					</tbody>
+				</table>
+
+			</section>
+
+	</div>
+</body>
+
+
+<footer>
+	<div id="footerContent">
+		<p>©UNLV School of Medicine 2018 Version 1.0</p>
+		<p>Developed by Jeffrey Fahl, MD, Kyle Petersen, PhD, Richard Drake, PhD,  Alesha Petitt, MA, Claira Ralston, MS, and Kim Price, MA</p>
+		<p>Figures used with permission from Drake: Gray's Atlas of Anatomy, 2nd Edition (Resources)</p>
+	</div>
+</footer>
+
+</html>
