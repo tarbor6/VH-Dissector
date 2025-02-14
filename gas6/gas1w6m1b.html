@@ -1,0 +1,130 @@
+﻿<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>GAS1 Lab 6: Stomach, Liver, Spleen</title>
+		<link href="../css/ModuleStyle.css" rel="stylesheet" type="text/css">	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">	
+			function goBack() {
+    			window.history.back();
+			}
+		
+			function unhide(divID) {
+				var item = document.getElementById(divID);
+				if (item) {
+					item.className=(item.className=='hidden')?'unhidden':'hidden';
+				}
+			}
+			
+			$(document).ready(function() {
+				$("#step2").click(function(){
+					$("#step2Y").toggleClass("stepHighlightOn"); 
+				})				 
+			});
+				
+			
+		</script>
+	</head>
+
+<body>
+	<div id="content">	
+		<section id="headerBanner">
+			<header role="banner">
+				<a href="../lessons.html"><img src="../images/banner.png" alt="Albany Medical College Virtual Anatomy Lab" width="100%"></a>
+			</header>
+		</section>
+
+		<section id="mainContent">
+			<h2>Stomach, Liver, Spleen: Module 1 - Page 2 of 5</h2>		
+	
+			<p>Now add the major branches of the common hepatic artery.</p>
+			
+			<table class="lessonStepsTable">
+				<tbody>
+					<tr height="60px;">
+						<td valign="top" width="96px;"><a href="https://www.vhdissector.com/share/pz7eep" title="hepatic artery propper" style="color: white;"><button class="actionButton">Step 7</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">hepatic artery proper</span>.</td>
+					</tr>
+					<tr height="60px;">
+						<td valign="top" width="96px;"><a href="https://www.vhdissector.com/share/nvvkv3" title="left branch of the hepatic artery propper" style="color: white;"><button class="actionButton">Step 8</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">left branch of the hepatic artery proper</span>.</td>
+					</tr>
+					<tr height="60px;">
+						<td valign="top" width="96px;"><a href="https://www.vhdissector.com/share/z9xv3z" title="Right branch of the hepatic artery propper" style="color: white;"><button class="actionButton">Step 9</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">right branch of the hepatic artery proper</span>.</td>
+					</tr>
+					<tr height="60px;">
+						<td valign="top" width="96px;"><a href="https://www.vhdissector.com/share/es79nc" title="Left lobe of the liver" style="color: white;"><button class="actionButton">Step 10</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">left lobe of the liver</span>.</td>
+					</tr>
+					<tr height="60px;">
+						<td valign="top" width="96px;"><a href="https://www.vhdissector.com/share/fbd8v7" title="Right lobe of the liver" style="color: white;"><button class="actionButton">Step 11</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">right lobe of the liver</span>.</td>
+					</tr>
+					<tr height="60px;">
+						<td valign="top" width="96px;"><a href="https://www.vhdissector.com/share/wn7x4h" title="right gastric artery" style="color: white;"><button class="actionButton">Step 12</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">right gastric artery</span>.</td>
+					</tr>
+					<tr height="60px;">
+						<td valign="top" width="96px;"><a href="https://www.vhdissector.com/share/6zu7fk" title="stomach" style="color: white;"><button class="actionButton">Step 13</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Now add the <span class="term">stomach</span> to look at the major aterial supply of the stomach.</td>
+					</tr>
+				</tbody>
+			</table>	
+			
+			<table class="questionBox" style="margin: 1em auto; margin-bottom: 24px; margin-top: 24px; width: 100%;">
+				<tbody>
+					<tr valign="middle">
+						<td width="40px;"><button class="answerButton" onClick="unhide('Q1')">?</button></td>
+						<td><p style="padding-left: 12px;">The stomach has greater and lesser curvatures. Which arteries supply the lesser curvature?</p></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<div id="Q1" class="hidden">
+								<p class="lessonAnswer">The left and right gastric arteries form a loop that effectively allows for colateral flow to the lesser curavature of the stomach.</p>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+			<table class="questionBox" style="margin: 1em auto; margin-bottom: 24px; margin-top: 24px; width: 100%;">
+				<tbody>
+					<tr valign="middle">
+						<td width="40px;"><button class="answerButton" onClick="unhide('Q2')">?</button></td>
+						<td><p style="padding-left: 12px;">Why does this make sense embryologically?</p></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<div id="Q2" class="hidden">
+								<p class="lessonAnswer">This is because of the inital 90 degree rotaion of the foregut.</p>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+	
+			<table class="continueButtons">
+				<tbody>
+				<tr height="200px" valign="top">
+		         	<td align="left"><button class="button" onclick="goBack()">Back</button></td>
+					<td align="center"><a href="../lessons.html"><button class="button">Return to Lessons Index</button></a></td>
+		        	<td align="right"><a href="gas1w6m1c.html"><button class="button">Continue</button></a></td></tr>
+		 		</tbody>
+			</table>
+
+		</section>
+	</div>
+</body>
+
+<footer>
+	<div id="footerContent">
+		<p>©UNLV School of Medicine 2019 Version 2019.01.14<br>
+		Developed by Jeffrey Fahl, MD, Kyle Petersen, PhD, Richard Drake, PhD,  Alesha Petitt, MA, Claira Ralston, MS, and Kim Price, MA<br>
+		Figures used with permission from Drake: Gray's Atlas of Anatomy, 2nd Edition (Resources)</p>
+	</div>
+</footer>
+
+</html>

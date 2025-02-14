@@ -1,0 +1,104 @@
+﻿<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>GAS1 Lab 6: Stomach, Liver, Spleen</title>
+		<link href="../css/ModuleStyle.css" rel="stylesheet" type="text/css">	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">	
+			function goBack() {
+    			window.history.back();
+			}
+		
+			function unhide(divID) {
+				var item = document.getElementById(divID);
+				if (item) {
+					item.className=(item.className=='hidden')?'unhidden':'hidden';
+				}
+			}
+			
+			$(document).ready(function() {
+				$("#step26").click(function(){
+					$("#step26Y").toggleClass("stepHighlightOn"); 
+				})				 
+			});
+				
+			
+		</script>
+	</head>
+
+<body>
+	<div id="content">	
+		<section id="headerBanner">
+			<header role="banner">
+				<a href="../lessons.html"><img src="../images/banner.png" alt="Albany Medical College Virtual Anatomy Lab" width="100%"></a>
+			</header>
+		</section>
+
+		<section id="mainContent">
+			<h2>Stomach, Liver, Spleen: Module 1 - Page 5 of 5</h2>		
+							
+			<table>
+				<tbody>				
+					<tr height="60px;">
+						<td valign="top" width="96px;"><a href="https://www.vhdissector.com/share/g9xpjc" title="Pancreas" style="color: white;"><button class="actionButton">Step 19</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">pancreas</span>.</td>
+					</tr>
+					<tr height="60px;">
+						<td valign="top" width="96px;"><a href="https://www.vhdissector.com/share/cxen44" title="Duodenum" style="color: white;"><button class="actionButton">Step 20</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">duodenum</span>.</td>
+					</tr>
+					<tr height="60px;">
+						<td valign="top" width="96px;"><button class="actionButton" id="step26">Step 21</button></td>
+						<td valign="top" style="padding-top: 3px;"><span class="stepHighlightOff" id="step26Y">Now rotate, dissect, and highlight this area to get the full effect of organs and their interaction with the blood supply.</span></td>
+					</tr>
+					<tr height="40px;">
+						<td valign="top" width="96px;"><a href="https://www.vhdissector.com/share/dneg4p" title="Kidneys and renal arteries" style="color: white;"><button class="actionButton">Step 22</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">kidneys, renal arteries and lumbar arteries</span> for reference.</td>
+					</tr>
+				</tbody>
+			</table>			
+		
+			<p>Remember that the kidneys, duodenum and most of the pancreas are retroperitoneal.</p>
+			
+			<table class="questionBox" style="margin: 1em auto; margin-bottom: 24px; margin-top: 24px; width: 100%;">
+				<tbody>
+					<tr valign="middle">
+						<td width="40px;"><button class="answerButton" onClick="unhide('Q8')">?</button></td>
+						<td><p style="padding-left: 12px;">What part of the pancreas is not retroperitoneal? </p></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<div id="Q8" class="hidden">
+								<p class="lessonAnswer">The extreme end of the body of the pancreas, which is also known as the tail of the pancreas.</p>
+								<img src="images/retroperitonealorgans.jpg" alt="Retroperitoneal organs" width="90%" />
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+			<table class="continueButtons">
+				<tbody>
+				<tr height="200px" valign="top">
+		         	<td align="left"><button class="button" onclick="goBack()">Back</button></td>
+					<td align="center"><a href="../lessons.html"><button class="button">Return to Lessons Index</button></a></td>
+		        	<td align="right"><a href="gas1w6m1a.html"><button class="button">Return to start</button></a></td></tr>
+		 		</tbody>
+			</table>
+
+		</section>
+	</div>
+</body>
+
+<footer>
+	<div id="footerContent">
+		<p>©UNLV School of Medicine 2019 Version 2019.01.14<br>
+		Developed by Jeffrey Fahl, MD, Kyle Petersen, PhD, Richard Drake, PhD,  Alesha Petitt, MA, Claira Ralston, MS, and Kim Price, MA<br>
+		Figures used with permission from Drake: Gray's Atlas of Anatomy, 2nd Edition (Resources)</p>
+	</div>
+</footer>
+
+</html>
