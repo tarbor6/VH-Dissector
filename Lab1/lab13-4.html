@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>MUS Lab1 - Module 3</title>
+		<link href="../css/ModuleStyle.css" rel="stylesheet" type="text/css">	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">	
+			function goBack() {
+    			window.history.back();
+			}
+		
+			function unhide(divID) {
+				var item = document.getElementById(divID);
+				if (item) {
+					item.className=(item.className=='hidden')?'unhidden':'hidden';
+				}
+			}
+			
+			$(document).ready(function() {
+				$("#step2").click(function(){$("#step2Y").toggleClass("stepHighlightOn");})
+				$("#step3").click(function(){$("#step3Y").toggleClass("stepHighlightOn");})	
+			});
+				
+			
+		</script>
+	</head>
+<meta charset="utf-8">
+<title>MUS Lab1 - Module 3</title>
+
+<body>
+	<div id="content">
+		<section id="headerBanner">
+			<header role="banner">
+				<a href="../lessons.html"><img src="../images/banner.png" alt="Albany Medical College Virtual Anatomy Lab" width="100%"></a>
+			</header>
+		</section>
+		
+		<section id="headerContent">
+			<h1>Lab 1 Module 3: Posterior Triangle of the Neck - Page 5 of 5</h1>			
+		</section>
+		
+		<section id="objectiveContent">
+			<table class="details">
+				<tbody>
+					<tr valign="top">
+						<td style="padding: 0px 18px;"><h2>CASE REPORT Conclusion:</h2>
+							<p><span style="font-weight: bold">When performing a complete axillary lymph node dissection there are several nerves that are more at risk than the other nerves of the region.</span></p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			
+		
+		<section id="mainContent">
+			<table class="lessonStepsTable">
+				<tbody>
+					<tr height="60px;">
+						<td valign="top" width="100px;"><a href="https://www.vhdissector.com/share/b7g285" title="Long Thoracic Nerve" style="color: white;"><button class="actionButton">Step 23</button></a></td>
+						<td valign="top" style="padding-top: 9px;">The <span class="term">Long Thoracic Nerve</span> which arises from <span style="font-weight: bold">C5, C6, C7 cervical ventral rami</span> passes posterior to the trunks of the brachial plexus and lies on the superficial side of the serratus anterior muscle (part of the medial wall of the axilla). This nerve also innervates the serratus anterior. <span style="font-weight: bold">This nerve was previously identified. Find it on the cadaver</span>.</td>
+					</tr>
+				</tbody>
+				<br>
+			</table>
+			
+			<table class="questionBox" style="margin: 1em auto; margin-bottom: 24px; margin-top: 24px; width: 100%;">
+				<tbody>
+					<tr valign="middle">
+						<td width="40px;"><button class="answerButton" onClick="unhide('Q5')">?</button></td>
+						<td><p style="padding-left: 12px;">If the long thoracic nerve is injured, what would happen to the scapula?</p></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<div id="Q5" class="hidden">
+								<p class="questionBoxAnswer">The long thoracic nerve passes down the lateral wall of the thorax and is very vulnerable to injury. Injury to this nerve results in the medial border and particular the inferior angle of the scapula to elevate away from the thoracic wall, resulting in a characteristic "winged scapula" on pushing forward with the arm. In addtion, elevation of the arm is no longer possible.  Additionally, weakness or paralysis of the serratus anterior will result in the patient having difficulty raising their hand over their head because the scapula will not be able to upwardly rotate.</p>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+			<table>
+				<tbody>
+					<tr height="60px;">
+						<td valign="top" width="100px;"><a href="https://www.vhdissector.com/share/b7g285" title="Thoracodorsal Nerve" style="color: white;"><button class="actionButton">Step 24</button></a></td>
+						<td valign="top" style="padding-top: 9px;">The <span class="term">Thoracodorsal Nerve</span> branches directly off of the posterior cord of the brachial plexus, descends along the posterior wall of the axilla, and innervates the large latissimus dorsi muscle.  The latissimus dorsi muscle is a powerful adductor, extender, and medial rotator of the arm at the glenohumeral joint, therefore, injury to the thoracodorsal nerve will result in significant weakness of those motions. <span style="font-weight: bold">This nerve was previously identified. Find it on the cadaver</span>.</td>
+					</tr>
+				</tbody>
+				<br>
+				<tbody>
+					<tr height="60px;">
+						<td valign="top" width="100px;"><a href="https://www.vhdissector.com/share/b7g285" title="Intercostal brachial Nerve" style="color: white;"><button class="actionButton">Step 25</button></a></td>
+						<td valign="top" style="padding-top: 9px;">The <span class="term">Intercostal Brachial Nerve</span> is a branch of the second intercostal nerve.  It leaves the thoracic wall, spans the axilla to reach the medial side of the arm where it joins with the medial brachial cutaneous nerve to provide cutaneous sensory innervation.  Injury to this nerve during the operative. Procedure can lead to persistent postoperative pain or numbness in the region. <span style="font-weight: bold">(This nerve is not visable on this cadaver)</span>.</td>
+					</tr>
+				</tbody>
+			</table>
+
+			
+				
+			
+		</section>
+		<section>
+			<table class="continueButtons" style="margin-top:100px;">
+				<tbody>
+				<tr height="200px" valign="top">
+		         	<td align="left"><button class="button" onclick="goBack()">Back</button></td>
+					<td align="center"><a href="../lessons.html"><button class="button">Return to Lessons Index</button></a></td>
+		        	<td align="right"><a href="lab13-1.html"><button class="button">Return to Start</button></a></td></tr>
+		 		</tbody>
+			</table>
+
+		</section>
+	</div>	
+</body>
+	
+<footer>
+	<div id="footerContent">
+		<p>©AMC 2021 Version 2021.05.01<br>
+		Original Development by Jeffrey Fahl, MD, Kyle Petersen, PhD, Richard Drake, PhD,  Alesha Petitt, MA, Claira Ralston, MS and Kim Price, MA<br>
+		Modified by Jeffrey Fahl, MD, Michael Smith, PhD, Amanda Khan, PhD<br>
+		Figures used with permission from Drake: Gray's Atlas of Anatomy, 2nd Edition (Resources)</p>
+	</div>
+</footer>
+</html>
