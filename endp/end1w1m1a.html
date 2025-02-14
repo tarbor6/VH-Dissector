@@ -1,0 +1,180 @@
+﻿<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>END 1 Lab 1: Pelvis and Perineum</title>
+		<link href="../css/ModuleStyle.css" rel="stylesheet" type="text/css">	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">	
+			function goBack() {
+    			window.history.back();
+			}
+		
+			function unhide(divID) {
+				var item = document.getElementById(divID);
+				if (item) {
+					item.className=(item.className=='hidden')?'unhidden':'hidden';
+				}
+			}
+			
+			$(document).ready(function() {
+				$("#step2").click(function(){$("#step2Y").toggleClass("stepHighlightOn");})
+				$("#step3").click(function(){$("#step3Y").toggleClass("stepHighlightOn");})	
+			});
+				
+			
+		</script>
+	</head>
+
+<body>
+	<div id="content">
+		<section id="headerBanner">
+			<header role="banner">
+				<a href="../lessons.html"><img src="../images/banner.png" alt="Albany Medical College Virtual Anatomy Lab" width="100%"></a>
+			</header>
+		</section>
+		
+		<section id="headerContent">
+			<h1>END 1 Lab 1: Pelvis and Perineum</h1>
+		</section>
+		
+		<section id="objectiveContent">
+		<table class="details">
+				<tbody>
+					<tr valign="top">
+						<td style="padding: 0px 18px;"><h2>OBJECTIVES:</h2>
+							<p><span style="font-weight: bold">END1.1.1 &nbsp;&nbsp;Identify</span> the bony walls, the joints and the ligaments of the pelvis.</p>
+							<p><span style="font-weight: bold">END1.1.2 &nbsp;&nbsp;Identify</span> the bony and ligamentous boundaries of the perineum.</p>
+							<p><span style="font-weight: bold">END1.1.3 &nbsp;&nbsp;Identify</span> the muscles of the pelvis, including the pelvic diaphragm and its components.</p>
+							<p><span style="font-weight: bold">END1.1.4 &nbsp;&nbsp;Identify</span> the urogenital diaphragm and its components.</p>
+							<p><span style="font-weight: bold">END1.1.5 &nbsp;&nbsp;Indicate</span> the relationship of the pelvic diaphragm and the urogenital diaphragm to the genitourinary tracts in the female.</p>
+							<p><span style="font-weight: bold">END1.1.6 &nbsp;&nbsp;Identify</span> the rectum, anus, and the anal sphincters.</p>														
+					  </td>
+					</tr>	
+					<tr>
+						<td style="padding: 0px 18px;">
+							<h2>READINGS:</h2>
+							<p>Gray's Anatomy for Students (Fourth Edition): Pages: 415-454. See Green Highlighted sections for clinical correlation.</p>
+							
+						</td>
+					</tr>
+				</tbody>		
+			</table>		
+
+		</section>
+
+		<section id="mainContent">
+			<h2>Pelvis and Perineum: Module 1 - Page 1 of 5</h2>
+			
+			<table style="padding: 0 15px; float: right;" width="40%">
+				<tbody>
+					<tr>
+						<td><a href="#FemalePelvis"><img src="images/pelvicinlet.jpg" alt="Female pelvic" class="thumbnail" /></a></td>
+					</tr>
+					<tr>
+						<td align="center"><span style="font-size: 10pt;">Tap on image to enlarge</span></td>
+					</tr>
+				</tbody>
+			</table>
+			
+			<a href="#_" class="lightbox" id="FemalePelvis"><img src="images/pelvicinlet.jpg" alt="Female pelvic"/></a>
+			
+			
+			<table class="lessonStepsTable">
+				<tbody>
+					<tr height="60px;">
+						<td valign="top" width="90px;"><a href="https://www.vhdissector.com/share/7md64f" title="Female pelvis" style="color: white;"><button class="actionButton">Step 1</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Begin with the <span class="term">female pelvis&nbsp;</span>because the stuctures we will look at are clearer in this 3D representation.</td>
+					</tr>
+
+					<tr height="60px;" >
+						<td valign="top"><button class="actionButton" id="step2">Step 2</button></td>
+						<td valign="top" style="padding-top: 3px;"><span class="stepHighlightOff" id="step2Y"><span style="font-weight: bold">Identify</span> the following structures using the diagram to help you locate the structures. Check off each of the following:</span>
+								<p><input type="checkbox" id="cb1" name="cb1"> <label for="cb1"> Pubic crest</label></p>
+								<p><input type="checkbox" id="cb2" name="cb2"> <label for="cb2"> Pubic symphysis</label></p>
+								<p><input type="checkbox" id="cb3" name="cb3"> <label for="cb3"> Pubic tubercle</label></p>
+								<p><input type="checkbox" id="cb4" name="cb4"> <label for="cb4"> Anterior superior iliac spine</label></p>
+								<p><input type="checkbox" id="cb5" name="cb5"> <label for="cb5"> Ischial spine</label></p>
+								<p><input type="checkbox" id="cb6" name="cb6"> <label for="cb6"> Coccyx</label></p>
+							<br>
+							<p><span style="font-weight: bold">Be sure to rotate the pelvis in order to get a full understanding of the 3D pelvis as you identify the bones and landmarks that form the pelvis.</span></p>
+						</td>
+						
+						
+					</tr>
+					
+					
+					<!--<tr height="60px;" >
+						<td valign="top"><button class="actionButton" id="step3">Step 3</button></td>
+						<td valign="top" style="padding-top: 3px;"><span class="stepHighlightOff" id="step3Y">Rotate and identify the boundaries of the <span class="term">pelvic inlet</span>.</span></td>
+					</tr>-->
+				</tbody>
+			</table>
+			
+			<table class="questionBox" style="margin: 1em auto; margin-bottom: 24px; margin-top: 24px; width: 100%;">
+				<tbody>
+					<tr valign="middle">
+						<td width="40px;"><button class="answerButton" onClick="unhide('Q1')">?</button></td>
+						<td><p style="padding-left: 12px;">What are the bony boundaries separating the <span class="term">abdomen</span> and <span class="term">pelvis</span>?</p></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<div id="Q1" class="hidden">
+								<p class="questionBoxAnswer">Sacral promontory (S1).</p>
+								<p class="questionBoxAnswer">Sacral ala.</p>
+								<p class="questionBoxAnswer">Arcuate line of the ilium.</p>
+								<p class="questionBoxAnswer">Pectin pubis (superior ramous of the pubic bone).</p>
+								<p class="questionBoxAnswer">Posterior border of the pubic crest.</p>								
+								<p class="questionBoxAnswer">Superior margin of the pubic symphysis.</p>
+								<img src="images/boundaries.jpg" alt="Pelvic boundaries">
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			
+			<table class="questionBox" style="margin: 1em auto; margin-bottom: 24px; margin-top: 24px; width: 100%;">
+				<tbody>
+					<tr valign="middle">
+						<td width="40px;"><button class="answerButton" onClick="unhide('Q2')">?</button></td>
+						<td><p style="padding-left: 12px;">What are the bony boundaries of the <span class="term">pelvic inlet</span>?</p></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<div id="Q2" class="hidden">
+								<p class="questionBoxAnswer">Posteriorly by the sacrum.</p>
+								<p class="questionBoxAnswer">Anteriorly by the pubic symphysis.</p>
+								<p class="questionBoxAnswer">Laterally by the distinct boney rim of the pelvic bone.</p>
+								<img src="images/boundaries.jpg" alt="Pelvic Boundaries">
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table class="continueButtons" style="margin-top:100px;">
+				<tbody>
+				<tr height="200px" valign="top">
+		         	<!--<td align="left"><button class="button" onclick="goBack()">Back</button></td>-->
+					<td align="center"><a href="../lessons.html"><button class="button">Return to Lessons Index</button></a></td>
+		        	<td align="right"><a href="end1w1m1b.html"><button class="button">Continue</button></a></td></tr>
+		 		</tbody>
+			</table>
+
+		</section>
+	</div>
+</body>
+
+
+
+<footer>
+	<div id="footerContent">
+		<p>©UNLV School of Medicine 2019 Version 2019.02.11<br>
+		Developed by Jeffrey Fahl, MD, Kyle Petersen, PhD, Richard Drake, PhD,  Alesha Petitt, MA, Claira Ralston, MS, and Kim Price, MA<br>
+		Figures used with permission from Drake: Gray's Atlas of Anatomy, 2nd Edition (Resources)</p>
+	</div>
+</footer>
+
+</html>
