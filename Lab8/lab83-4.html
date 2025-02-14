@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Lab8 - Anatomy of the Knee, the Anterior Compartment and the Lateral Compartment of the Leg</title>
+		<link href="../css/ModuleStyle.css" rel="stylesheet" type="text/css">	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">	
+			function goBack() {
+    			window.history.back();
+			}
+		
+			function unhide(divID) {
+				var item = document.getElementById(divID);
+				if (item) {
+					item.className=(item.className=='hidden')?'unhidden':'hidden';
+				}
+			}
+			
+			$(document).ready(function() {
+				$("#step2").click(function(){$("#step2Y").toggleClass("stepHighlightOn");})
+				$("#step3").click(function(){$("#step3Y").toggleClass("stepHighlightOn");})	
+			});
+				
+			
+		</script>
+	</head>
+
+
+<body>
+	<div id="content">
+		<section id="headerBanner">
+			<header role="banner">
+				<a href="../lessons.html"><img src="../images/banner.png" alt="Albany Medical College Virtual Anatomy Lab" width="100%"></a>
+			</header>
+		</section>
+		
+		<section id="headerContent">
+			<h1>Lab 8 - Module 3 - Anatomy of the Dorsum of the Foot: Page 4 of 4 </h1>			
+		</section>
+		
+		<section id="objectiveContent">
+			<table class="details">
+				<tbody>
+					<tr valign="top">
+						<td style="padding: 0px 18px;">
+							<h2>Case Report Conclusion:</h2>
+							
+								<p><span style="font-weight: bold">Lachman Exam is a good special test to exam the integrity of the anterior cruciate ligament (ACL).<br><br>Valgus stress test is an exam used to test the integrity of the medial collateral ligament (MCL) and medial joint capsule.<br><br>Anterior Drawer Test is an exam used to test the integrity of the anterior cruciate ligament but not as sensitive as the Lachman Exam.<br><br>An MRI would likely be ordered to confirm the physical exam as well as look for other anomalies.  In this case, the MRI revealed a medial meniscus tear.  There are special tests used to assess the meniscus, but they are not very sensitive.  Also, they require a lot of manipulation of the joint and likely would not be able to be performed when the patient is acute because of pain.<br><br>The Diagnosis of Unhappy Triad is now made.  That is a complete tear of the ACL, MCL, and medial meniscus.</span></p>		
+						</td>	
+					</tr>	
+				</tbody>		
+			</table>		
+		</section>
+			<div id="modal01" class="modal" onclick="this.style.display='none'">
+  				<span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  				<div class="modal-content">
+    				<img id="img01" style="max-width:100%" alt="Image">
+	 		  </div>
+	  </div>
+	  <section id="mainContent">
+			
+			<img src="images/unhappytriad.jpg" alt="unhappytriad" width: 90%; max-width: 800px/>
+			
+			<table>
+				<tbody>
+					<tr height="60px;">
+						<td><span style="font-weight: bold">MRI images of Unhappy triad from left to right: ACL, MCL, medial meniscus.<br><br><br><br>
+							Image from Hellerhoff - https://en.wikipedia.org/wiki/Unhappy_triad</span></td>
+					</tr>
+				</tbody>
+			</table>
+
+		</section>
+		<section>
+			<table class="continueButtons" style="margin-top:100px;">
+				<tbody>
+				<tr height="200px" valign="top">
+		         	<td align="left"><button class="button" onclick="goBack()">Back</button></td>
+					<td align="center"><a href="../lessons.html"><button class="button">Return to Lessons Index</button></a></td>
+		        	<td align="right"><a href="lab83-1.html"><button class="button">Return to Start</button></a></td></tr>
+		 		</tbody>
+			</table>
+
+		</section>
+	</div>	
+</body>
+	
+<footer>
+	<div id="footerContent">
+		<p>©AMC 2020 Version 2020.05.01<br>
+		Original Development by Jeffrey Fahl, MD, Kyle Petersen, PhD, Richard Drake, PhD,  Alesha Petitt, MA, Claira Ralston, MS and Kim Price, MA<br>
+		Modified by Jeffrey Fahl, MD, Michael Smith, PhD<br>
+		Figures used with permission from Drake: Gray's Atlas of Anatomy, 2nd Edition (Resources)</p>
+	</div>
+</footer>
+</html>

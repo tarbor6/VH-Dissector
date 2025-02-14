@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Lab8 - Anatomy of the Knee, the Anterior Compartment and the Lateral Compartment of the Leg</title>
+		<link href="../css/ModuleStyle.css" rel="stylesheet" type="text/css">	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">	
+			function goBack() {
+    			window.history.back();
+			}
+		
+			function unhide(divID) {
+				var item = document.getElementById(divID);
+				if (item) {
+					item.className=(item.className=='hidden')?'unhidden':'hidden';
+				}
+			}
+			
+			$(document).ready(function() {
+				$("#step2").click(function(){$("#step2Y").toggleClass("stepHighlightOn");})
+				$("#step3").click(function(){$("#step3Y").toggleClass("stepHighlightOn");})	
+			});
+				
+			
+		</script>
+	</head>
+
+
+<body>
+	<div id="content">
+		<section id="headerBanner">
+			<header role="banner">
+				<a href="../lessons.html"><img src="../images/banner.png" alt="Albany Medical College Virtual Anatomy Lab" width="100%"></a>
+			</header>
+		</section>
+		
+		<section id="headerContent">
+			<h1>Lab 8 - Module 3 - Anatomy of the Dorsum of the Foot: Page 2 of 4</h1>			
+		</section>
+			<div id="modal01" class="modal" onclick="this.style.display='none'">
+  				<span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  				<div class="modal-content">
+    				<img id="img01" style="max-width:100%" alt="Image">
+ 		 		</div>
+			</div>
+
+		<section id="mainContent">
+			<h2>Arteries on the Dorsum of the Foot</h2>
+			<table style="padding: 0 15px; float: right;" width="40%">
+				<tbody>
+					<tr>
+						<td><a href="#andorsum"><img src="images/andorsum.jpg" alt="cubital fossa" class="andorsuml" /></a></td>
+					</tr>
+					<tr>
+						<td align="center"><span style="font-size: 10pt;">Tap on image to enlarge</span></td>
+					</tr>
+				</tbody>
+				
+				<a href="#_" class="lightbox" id="andorsum"><img src="images/andorsum.jpg" alt="andorsum"/></a>
+			</table>
+			
+			<table class="lessonStepsTable">
+				<tbody>
+					<tr height="60px;">
+						<td valign="top" width="100px;"><a href="https://www.vhdissector.com/share/h9ha62" title="arteries" style="color: white;"><button class="actionButton">Step 3</button></a></td>
+						<td valign="top" style="padding-top: 9px;">The <span class="term">arteries</span> of the dorsum of the foot are small and not identified on the 3D cadaver. <span style="font-weight: bold">See diagram for location of each artery.</span> <br><br>•	<span class="term">The anterior tibial artery</span> crosses the dorsal surface of the ankle joint and is now called the <span class="term">dorsalis pedis artery</span>.  The dorsal pedis artery travels distal, just lateral to the <span class="term">extensor hallucis longus tendon</span>, to the space between the first and second metatarsal bases.  There it branches into a <span class="term">deep plantar artery</span> that dives deep into the space to the plantar aspect of the foot (to anastomose with the <span class="term">lateral plantar artery</span>) and an <span class="term">arcute artery</span> that travels lateral across the dorsum of the bases of the lateral four metatarsals.  It may anastomose with the <span class="term">lateral tarsal artery</span>. <br><br>•	<span class="term">The lateral tarsal artery</span> branches off of the <span class="term">dorsal pedis artery</span> and runs lateral and inferior, deep to the EDB.  It anastomoses with the <span class="term">arcuate artery</span> (sometimes) as well as the <span class="term">anterior lateral malleolar artery</span>.  A perforating branch of the <span class="term">fibular artery</span> emerges between the distal tibia and fibula to join this anastomosis.<br><br>•	From the <span class="term">arcuate artery</span> arises the second, third, and fourth <span class="term">dorsal metatarsal arteries</span>.  The <span class="term">first dorsal metatarsal artery</span> arises from the division of the <span class="term">dorsal pedis artery</span>.  Each metatarsal artery divides into two dorsal digital arteries.</td>
+					</tr>
+				</tbody>
+			</table>
+
+			
+			
+		</section>
+		<section>
+			<table class="continueButtons" style="margin-top:100px;">
+				<tbody>
+				<tr height="200px" valign="top">
+		         	<td align="left"><button class="button" onclick="goBack()">Back</button></td>
+					<td align="center"><a href="../lessons.html"><button class="button">Return to Lessons Index</button></a></td>
+		        	<td align="right"><a href="lab83-3.html"><button class="button">Continue</button></a></td></tr>
+		 		</tbody>
+			</table>
+
+		</section>
+	</div>	
+</body>
+	
+<footer>
+	<div id="footerContent">
+		<p>©AMC 2020 Version 2020.05.01<br>
+		Original Development by Jeffrey Fahl, MD, Kyle Petersen, PhD, Richard Drake, PhD,  Alesha Petitt, MA, Claira Ralston, MS and Kim Price, MA<br>
+		Modified by Jeffrey Fahl, MD, Michael Smith, PhD<br>
+		Figures used with permission from Drake: Gray's Atlas of Anatomy, 2nd Edition (Resources)</p>
+	</div>
+</footer>
+</html>

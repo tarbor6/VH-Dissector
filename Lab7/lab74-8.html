@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Lab7 - Anatomy of the Popliteal Fossa and Posterior Leg</title>
+		<link href="../css/ModuleStyle.css" rel="stylesheet" type="text/css">	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">	
+			function goBack() {
+    			window.history.back();
+			}
+		
+			function unhide(divID) {
+				var item = document.getElementById(divID);
+				if (item) {
+					item.className=(item.className=='hidden')?'unhidden':'hidden';
+				}
+			}
+			
+			$(document).ready(function() {
+				$("#step2").click(function(){$("#step2Y").toggleClass("stepHighlightOn");})
+				$("#step3").click(function(){$("#step3Y").toggleClass("stepHighlightOn");})	
+			});
+				
+			
+		</script>
+	</head>
+
+
+<body>
+	<div id="content">
+		<section id="headerBanner">
+			<header role="banner">
+				<a href="../lessons.html"><img src="../images/banner.png" alt="Albany Medical College Virtual Anatomy Lab" width="100%"></a>
+			</header>
+		</section>
+		
+		<section id="headerContent">
+			<h1>Lab 7 - Module 4 - The Foot: Page 8 of 8 </h1>			
+		</section>
+			<div id="modal01" class="modal" onclick="this.style.display='none'">
+  				<span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  				<div class="modal-content">
+    				<img id="img01" style="max-width:100%" alt="Image">
+ 		 		</div>
+			</div>
+
+		<section id="mainContent">
+			<h2>Arteries of the Plantar Foot:</h2>
+			
+			<table style="padding: 0 15px; float: right;" width="40%">
+				<tbody>
+					<tr>
+						<td><a href="#plantarnerveart"><img src="images/plantarnerveart.jpg" alt="plantarnerveart" class="thumbnail" /></a></td>
+					</tr>
+					<tr>
+						<td align="center"><span style="font-size: 10pt;">Tap on image to enlarge</span></td>
+					</tr>
+				</tbody>
+				
+				<a href="#_" class="lightbox" id="plantarnerveart"><img src="images/plantarnerveart.jpg" alt="plantarnerveart"/></a>
+			</table>
+			
+			<table>
+				<tbody>
+					<tr height="60px;">
+						<td><span style="font-weight: bold">The <span class="term">posterior tibial</span> artery takes the same path into the plantar foot as the <span class="term">tibial</span> nerve.  The artery divides into the <span class="term">medial plantar</span> and <span class="term">lateral plantar</span> arteries.</span></td>
+					</tr>
+				</tbody>
+			</table>
+			<br><br>
+			<table class="lessonStepsTable">
+				<tbody>
+					<tr height="60px;">
+						<td valign="top" width="100px;"><a href="https://www.vhdissector.com/share/rbbbuj" title="Posterior Tibial Artery" style="color: white;"><button class="actionButton">Step 20</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">Posterior Tibial Artery</span>.</td>
+					</tr>
+				</tbody>
+			</table>
+			
+			<table class="lessonStepsTable">
+				<tbody>
+					<tr height="60px;">
+						<td valign="top" width="100px;"><a href="https://www.vhdissector.com/share/nwajm4" title="Medial Plantar " style="color: white;"><button class="actionButton">Step 21</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">Medial Plantar </span> artery.<br><br>•	Passes between the abductor hallucis and flexor digitorum brevis.<br><br>•	It supplies branches to the medial side of the great (big) toe.<br><br>•	It sends a branch deep to become part of the deep plantar arch but it is an insignificant contribution.</td>
+					</tr>
+				</tbody>
+			</table>
+			<br><br>
+			<table class="lessonStepsTable">
+				<tbody>
+					<tr height="60px;">
+						<td valign="top" width="100px;"><a href="https://www.vhdissector.com/share/ydry2x" title="Lateral Plantar " style="color: white;"><button class="actionButton">Step 22</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">Lateral Plantar </span> artery.<br><br>•	Passes laterally between the flexor digitorum brevis and quadratus plantae.  It sends a deep branch medial to anastomose with the deep plantar branch of the dorsalis pedis artery (from the dorsum of the foot).  The anastomosis between those two arteries comprise the deep plantar arch and give rise to 4 plantar metatarsal arteries which give rise to common digital arteries.</td>
+					</tr>
+				</tbody>
+			</table>
+		
+			<table class="questionBox" style="margin: 1em auto; margin-bottom: 24px; margin-top: 24px; width: 100%;">
+				<tbody>
+					<tr valign="middle">
+						<td width="40px;"><button class="answerButton" onClick="unhide('Q1')">?</button></td>
+						<td><p style="padding-left: 12px;">The <span class="term">Tarsal Tunnel</span> provides access to the plantar foot. What structures pass through the <span class="term">Tarsal Tunnel</span>?</p></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<div id="Q1" class="hidden">
+								<p class="questionBoxAnswer">•	Tendon of the Tibialis Posterior<br><br>•	Tendon of the Flexor Digitorum Longus<br><br>•	Posterior Tibial Artery<br><br>•	Tibial Vein<br><br>•	Tibial Nerve<br><br>•	Tendon of the Flexor Hallucis Longus</p>
+								<img src="images/tarsaltunnel.jpg" alt="tarsaltunnel" width: 90%; max-width: 800px/>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			
+			
+		</section>
+		<section>
+			<table class="continueButtons" style="margin-top:100px;">
+				<tbody>
+				<tr height="200px" valign="top">
+		         	<td align="left"><button class="button" onclick="goBack()">Back</button></td>
+					<td align="center"><a href="../lessons.html"><button class="button">Return to Lessons Index</button></a></td>
+		        	<td align="right"><a href="lab74-1.html"><button class="button">Return to Start</button></a></td></tr>
+		 		</tbody>
+			</table>
+
+		</section>
+	</div>	
+</body>
+	
+<footer>
+	<div id="footerContent">
+		<p>©AMC 2020 Version 2020.05.01<br>
+		Original Development by Jeffrey Fahl, MD, Kyle Petersen, PhD, Richard Drake, PhD,  Alesha Petitt, MA, Claira Ralston, MS and Kim Price, MA<br>
+		Modified by Jeffrey Fahl, MD, Michael Smith, PhD<br>
+		Figures used with permission from Drake: Gray's Atlas of Anatomy, 2nd Edition (Resources)</p>
+	</div>
+</footer>
+</html>

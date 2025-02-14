@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Lab6 - Anatomy of the Gluteal Region and Posterior Thigh</title>
+		<link href="../css/ModuleStyle.css" rel="stylesheet" type="text/css">	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">	
+			function goBack() {
+    			window.history.back();
+			}
+		
+			function unhide(divID) {
+				var item = document.getElementById(divID);
+				if (item) {
+					item.className=(item.className=='hidden')?'unhidden':'hidden';
+				}
+			}
+			
+			$(document).ready(function() {
+				$("#step2").click(function(){$("#step2Y").toggleClass("stepHighlightOn");})
+				$("#step3").click(function(){$("#step3Y").toggleClass("stepHighlightOn");})	
+			});
+				
+			
+		</script>
+	</head>
+<meta charset="utf-8">
+<title>lab1-2</title>
+
+<body>
+	<div id="content">
+		<section id="headerBanner">
+			<header role="banner">
+				<a href="../lessons.html"><img src="../images/banner.png" alt="Albany Medical College Virtual Anatomy Lab" width="100%"></a>
+			</header>
+		</section>
+		
+		<section id="headerContent">
+			<h1>Lab 6 - Module 1 - The Gluteal Region: Page 8 of 8</h1>			
+		</section>
+		
+		<section id="objectiveContent">
+			<table class="details">
+				<tbody>
+					<tr valign="top">
+						<td style="padding: 0px 18px;">
+							<h2>Case Report Conclusion:</h2>
+							
+								<p><span style="font-weight: bold">Both the sensory and motor symptoms of this patient can be attributed to trauma (injection) to the common fibular portion of the sciatic nerve.<br><br>The sensory deficits are attributed to both the common fibular nerve and the superficial fibular nerve (branch of the common fibular nerve). Additionally, the superficial fibular nerve is responsible for general sensory to the majority of the dorsum of the foot.<br><br>Dorsiflexion is caused by nerves innervated by the deep fibular branch of the common fibular nerve as are the toe extensors.  Moreover, the main evertors of the foot are innervated by the superficial fibular nerve resulting in the patient dragging the outer part of their foot while walking.</span></p>		
+						</td>	
+					</tr>	
+				</tbody>		
+			</table>		
+		</section>
+		
+		<section id="mainContent">
+			<img src="images/fibnervedist.jpg" alt="fibnervedist" width: 90%; max-width: 800px/>
+		</section>
+		<section>
+			<table class="continueButtons" style="margin-top:100px;">
+				<tbody>
+				<tr height="200px" valign="top">
+		         	<td align="left"><button class="button" onclick="goBack()">Back</button></td>
+					<td align="center"><a href="../lessons.html"><button class="button">Return to Lessons Index</button></a></td>
+		        	<td align="right"><a href="lab61-1.html"><button class="button">Return to Start</button></a></td></tr>
+		 		</tbody>
+			</table>
+
+		</section>
+	</div>	
+</body>
+	
+<footer>
+	<div id="footerContent">
+		<p>©AMC 2020 Version 2020.05.01<br>
+		Original Development by Jeffrey Fahl, MD, Kyle Petersen, PhD, Richard Drake, PhD,  Alesha Petitt, MA, Claira Ralston, MS and Kim Price, MA<br>
+		Modified by Jeffrey Fahl, MD, Michael Smith, PhD<br>
+		Figures used with permission from Drake: Gray's Atlas of Anatomy, 2nd Edition (Resources)</p>
+	</div>
+</footer>
+</html>
