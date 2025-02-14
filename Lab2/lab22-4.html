@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Lab2 - Superficial Back and Scapular Region</title>
+		<link href="../css/ModuleStyle.css" rel="stylesheet" type="text/css">	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">	
+			function goBack() {
+    			window.history.back();
+			}
+		
+			function unhide(divID) {
+				var item = document.getElementById(divID);
+				if (item) {
+					item.className=(item.className=='hidden')?'unhidden':'hidden';
+				}
+			}
+			
+			$(document).ready(function() {
+				$("#step2").click(function(){$("#step2Y").toggleClass("stepHighlightOn");})
+				$("#step3").click(function(){$("#step3Y").toggleClass("stepHighlightOn");})	
+			});
+				
+			
+		</script>
+	</head>
+<meta charset="utf-8">
+<title>Lab2 - Superficial Back and Scapular Region</title>
+
+<body>
+	<div id="content">
+		<section id="headerBanner">
+			<header role="banner">
+				<a href="../lessons.html"><img src="../images/banner.png" alt="Albany Medical College Virtual Anatomy Lab" width="100%"></a>
+			</header>
+		</section>
+		
+		<section id="headerContent">
+			<h1>Lab2 - Module 2 - Anatomy of the Scapular Region: Page 4 of 7 </h1>			
+		</section>
+		
+		<section id="mainContent">
+			<h2>Spaces of the Shoulder</h2>
+			
+			<table style="padding: 0 15px; float: right;" width="40%">
+				<tbody>
+					<tr>
+						<td><a href="#postart"><img src="images/postart.jpg" alt="Posterior art" class="thumbnail" /></a></td>
+					</tr>
+					<tr>
+						<td align="center"><span style="font-size: 10pt;">Tap on image to enlarge</span></td>
+					</tr>
+				</tbody>
+				
+				<a href="#_" class="lightbox" id="post art"><img src="images/postart.jpg" alt="Posterior art"/></a>
+			</table>
+			<table style="padding: 0 15px; float: right;" width="40%">
+				<tbody>
+					<tr>
+						<td><a href="#antart"><img src="images/antart.jpg" alt="Anterior arter" class="thumbnail" /></a></td>
+					</tr>
+					<tr>
+						<td align="center"><span style="font-size: 10pt;">Tap on image to enlarge</span></td>
+					</tr>
+				</tbody>
+				
+				<a href="#_" class="lightbox" id="antart"><img src="images/antart.jpg" alt="Anterior arter"/></a>
+				
+			</table>
+			
+			<table>
+				<tbody>
+				  	<tr height="60px;">
+					  <td>There are two spaces of the shoulder joint. These are  the <span class="term">Quadrangular Space</span> and the <span class="term">Triangular Space.</span>.</td>				  
+					</tr>
+				</tbody>
+			</table>
+			
+			<table>
+				<tbody>
+				  	<tr height="60px;">
+						<td><span class="term">Quadrangular Space</span> - it is an area of the posterior shoulder in which the posterior humeral circumflex artery and the axillary nerve pass.  Lateral border of the space is the surgical neck of the humerus, Medial border is the long head of the triceps, Superior border is teres minor, and the inferior border is teres major.  Because the lateral border of the space is the surgical neck of the humerus a fracture may put the axillary nerve and posterior humeral circumflex artery at risk.</td>				  
+					</tr>
+				</tbody>
+			</table>
+			
+			<table>
+				<tbody>
+				  	<tr height="60px;">
+						<td><span class="term">Triangular Space</span>- it is an area in which the circumflex scapular artery passes.  The lateral border is long head of triceps, superior border is teres minor, and inferior border is teres major.</td>				  
+					</tr>
+				</tbody>
+			</table>
+			
+			
+		</section>
+		<section>
+			<table class="continueButtons" style="margin-top:100px;">
+				<tbody>
+				<tr height="200px" valign="top">
+		         	<td align="left"><button class="button" onclick="goBack()">Back</button></td>
+					<td align="center"><a href="../lessons.html"><button class="button">Return to Lessons Index</button></a></td>
+		        	<td align="right"><a href="lab22-5.html"><button class="button">Continue</button></a></td></tr>
+		 		</tbody>
+			</table>
+
+		</section>
+	</div>	
+</body>
+	
+<footer>
+	<div id="footerContent">
+		<p>©AMC 2021 Version 2021.05.01<br>
+		Original Development by Jeffrey Fahl, MD, Kyle Petersen, PhD, Richard Drake, PhD,  Alesha Petitt, MA, Claira Ralston, MS and Kim Price, MA<br>
+		Modified by Jeffrey Fahl, MD, Michael Smith, PhD, Amanda Khan, PhD<br>
+		Figures used with permission from Drake: Gray's Atlas of Anatomy, 2nd Edition (Resources)</p>
+	</div>
+</footer>
+</html>
