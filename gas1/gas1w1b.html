@@ -1,0 +1,144 @@
+﻿<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>GAS 1 Lab 1: Anterior Triangle of the Neck</title>
+		<link href="../css/ModuleStyle.css" rel="stylesheet" type="text/css">	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">	
+			function goBack() {
+    			window.history.back();
+			}
+		
+			function unhide(divID) {
+				var item = document.getElementById(divID);
+				if (item) {
+					item.className=(item.className=='hidden')?'unhidden':'hidden';
+				}
+			}
+			
+			$(document).ready(function() {
+				$("#step8").click(function(){$("#step8Y").toggleClass("stepHighlightOn");})
+			});
+				
+			function onClick(element) {
+				document.getElementById("img01").src = element.src;
+  				document.getElementById("modal01").style.display = "block";
+			}
+			
+		</script>
+	</head>
+
+<body>
+	<div id="content">
+		<section id="headerBanner">
+			<header role="banner">
+				<a href="../lessons.html"><img src="../images/banner.png" alt="Albany Medical College Virtual Anatomy Lab" width="100%"></a> 
+			</header>
+		</section>
+		
+		<section id="mainContent">
+			<h2>Anterior Triangle of the Neck: Module 1 - Page 2 of 4</h2>
+			
+			<!--Modal box-->
+			<div id="modal01" class="modal" onclick="this.style.display='none'">
+  				<span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  				<div class="modal-content">
+    				<img id="img01" style="max-width:100%" alt="Image">
+ 		 		</div>
+			</div>		
+			<!--End modal box-->
+			
+			<table style="padding: 0 15px 60px 15px; float: right;" width="40%">
+				<tbody>
+					<tr>
+						<td><img src="images/compartments.jpg" style="max-width:100%;max-width:300px;cursor:pointer;float: right;"	onclick="onClick(this)" class="viewImg" alt="Compartments"></td>
+					</tr>
+					<tr>
+						<td align="center"><span style="font-size: 10pt;">&#x1F50D; Compartments</span></td>
+					</tr>
+				</tbody>
+			</table>
+				
+			<h4>The visceral fascial compartment - continued</h4>
+			
+			<table class="lessonStepsTable">
+				<tbody>
+					<tr height="60px;">
+						<td valign="top" width="100px;"><button class="actionButton" id="step8">Step 8</button></td>
+						<td valign="top" style="padding-top: 3px;"><span class="stepHighlightOff" id="step8Y">Using the <span style="font-weight: bold">Dissect tool</span>, you will need to dissect away the thyroid gland to visualize the very small parathyroid glands. Now find the 3 visable parathyroid glands on this cadaver. Notice how integrated the parathyroid glands are within the thyroid gland.</span></td>
+					</tr>
+				</tbody>
+			</table>
+			
+			<table class="questionBox" style="margin: 1em auto; margin-bottom: 24px; margin-top: 24px; width: 100%;">
+				<tbody>
+					<tr valign="middle">
+						<td width="40px;"><button class="answerButton" onClick="unhide('Q1')">?</button></td>
+						<td><p style="padding-left: 12px;">What is the most commom cause of hypoparathyroidism?</p></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<div id="Q1" class="hidden">
+								<p class="questionBoxAnswer">Removal during surgery for thyroid disease.</p>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+			<table class="lessonStepsTable">
+				<tbody>
+					<tr height="60px;">
+						<td valign="top" width="100px;"><a href="https://www.vhdissector.com/share/a2v73z" title="hyoid boneXXX" style="color: white;"><button class="actionButton">Step 9</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">hyoid bone</span>.</td>
+					</tr>
+					
+					<tr height="60px;">
+						<td valign="top" width="100px;"><a href="https://www.vhdissector.com/share/hb3m8b" title="mandible" style="color: white;"><button class="actionButton">Step 10</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">mandible</span>.</td>
+					</tr>
+					
+					<tr height="60px;">
+						<td valign="top" width="100px;"><a href="https://www.vhdissector.com/share/md5kbf" title="clavicle and sternum" style="color: white;"><button class="actionButton">Step 11</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">clavicle and sternum</span>.</td>
+					</tr>
+					
+					<tr height="60px;">
+						<td valign="top" width="100px;"><a href="https://www.vhdissector.com/share/5w4mfb" title="recurrent laryngeal nerves" style="color: white;"><button class="actionButton">Step 12</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">recurrent laryngeal nerves</span>.</td>
+					</tr>
+					
+					<tr height="60px;">
+						<td valign="top" width="100px;"><a href="https://www.vhdissector.com/share/m9vv2u" title="thyroid cartilage" style="color: white;"><button class="actionButton">Step 13</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">thyroid cartilage</span>.</td>
+					</tr>
+					
+				</tbody>
+			</table>
+
+			<table class="continueButtons" style="margin-top:200px;">
+				<tbody>
+				<tr height="200px" valign="top">
+		         	<td align="left"><button class="button" onclick="goBack()">Back</button></td>
+					<td align="center"><a href="../lessons.html"><button class="button">Return to Lessons Index</button></a></td>
+		        	<td align="right"><a href="gas1w1c.html"><button class="button">Continue</button></a></td></tr>
+		 		</tbody>
+			</table>
+
+		</section>
+	</div>
+</body>
+
+
+
+<footer>
+	<div id="footerContent">
+		<p>©UNLV School of Medicine 2019 Version 2019.05.13<br>
+		Developed by Jeffrey Fahl, MD, Kyle Petersen, PhD, Richard Drake, PhD,  Alesha Petitt, MA, and Claira Ralston, MS.<br>
+		Figures used with permission from Drake: Gray's Atlas of Anatomy, 2nd Edition (Resources)</p>
+	</div>
+</footer>
+
+</html>
