@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Lab 5 - Anatomy of Hip and Anterior Thigh</title>
+		<link href="../css/ModuleStyle.css" rel="stylesheet" type="text/css">	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">	
+			function goBack() {
+    			window.history.back();
+			}
+		
+			function unhide(divID) {
+				var item = document.getElementById(divID);
+				if (item) {
+					item.className=(item.className=='hidden')?'unhidden':'hidden';
+				}
+			}
+			
+			$(document).ready(function() {
+				$("#step2").click(function(){$("#step2Y").toggleClass("stepHighlightOn");})
+				$("#step3").click(function(){$("#step3Y").toggleClass("stepHighlightOn");})	
+			});
+				
+			
+		</script>
+	</head>
+
+
+<body>
+	<div id="content">
+		<section id="headerBanner">
+			<header role="banner">
+				<a href="../lessons.html"><img src="../images/banner.png" alt="Albany Medical College Virtual Anatomy Lab" width="100%"></a>
+			</header>
+		</section>
+		
+		<section id="headerContent">
+			<h1>Lab 5 - Module 2 - Hip and Anterior Thigh - Muscles, Nerves and Vessels: Page 7 of 8</h1>			
+		</section>
+		
+			<div id="modal01" class="modal" onclick="this.style.display='none'">
+  				<span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  				<div class="modal-content">
+    				<img id="img01" style="max-width:100%" alt="Image">
+ 		 		</div>
+			</div>
+		
+		<section id="mainContent">
+			<h2>Fascia of the Thigh</h2>
+			
+			<table style="padding: 0 15px; float: right;" width="40%">
+				<tbody>
+					<tr>
+						<td><a href="#adductorcanal"><img src="images/adductorcanal.jpg" alt="adductorcanal" class="thumbnail" /></a></td>
+					</tr>
+					<tr>
+						<td align="center"><span style="font-size: 10pt;">Tap on image to enlarge</span></td>
+					</tr>
+				</tbody>
+				
+				<a href="#_" class="lightbox" id="adductorcanal"><img src="images/adductorcanal.jpg" alt="adductorcanal"/></a>
+			</table>
+			
+			<table>
+				<tbody>
+					<tr height="60px;">
+						<td><span style="font-weight: bold">•	Superficial layer is continuous with the superficial fascia of the abdomen. <br><br>•	Between two layers of superficial fascia are superficial inguinal lymph nodes and great and small saphenous veins. <br><br>•	Only the great saphenous vein is in the thigh because the small saphenous vein passes from the foot to the back of the knee (popliteal fossa) and empties into the popliteal vein. <br><br>•	The deep fascia has a gap in it just inferior to the inguinal ligament over the femoral triangle.  The great saphenous vein passes through this gap, the saphenous opening or ring, to reach the femoral vein into which it empties</span></td>
+					</tr>
+				</tbody>
+			</table>
+			<br><br>
+			<table class="lessonStepsTable">
+				<tbody>
+					<tr height="60px;">
+						<td valign="top" width="100px;"><a href="https://www.vhdissector.com/share/gx4d73" title="Saphenous Vein" style="color: white;"><button class="actionButton">Step 38</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">Saphenous Vein</span><br><br> •	Begins at the medial end of the dorsal venous arch and passes anterior to the medial malleolus of the tibia; lies superficial to the medial epicondyle approximately 10 cm posterior to the medial border of the patella; perforates the femoral sheath to empty into the femoral vein. <br><br>•	Note: When valves become incompetent they swell and become tortuous and are known as varicose veins.  When valves do not work properly blood is allowed to reverse flow because of dilation or rotation of the veins.  Great Saphenous Vein is a common area for varicose veins. <br><br>•	In coronary bypass surgery the great saphenous vein is sometimes used as the graft.  The vein is reversed so valve cusps do not obstruct blood flow.  Newer techniques, though, using arteries, are decreasing usage of the great saphenous vein as a graft material. <br><br>•	The saphenous nerve accompanies the great saphenous vein from the knee to the medial malleolus.  The saphenous nerve is the only branch of the femoral nerve that passes distal to the knee joint and it is purely cutaneous.</td>
+					</tr>
+				</tbody>
+			</table>
+
+		</section>
+		<section>
+			<table class="continueButtons" style="margin-top:100px;">
+				<tbody>
+				<tr height="200px" valign="top">
+		         	<td align="left"><button class="button" onclick="goBack()">Back</button></td>
+					<td align="center"><a href="../lessons.html"><button class="button">Return to Lessons Index</button></a></td>
+		        	<td align="right"><a href="lab52-8.html"><button class="button">Continue</button></a></td></tr>
+		 		</tbody>
+			</table>
+
+		</section>
+	</div>	
+</body>
+	
+<footer>
+	<div id="footerContent">
+		<p>©AMC 2020 Version 2020.05.01<br>
+		Original Development by Jeffrey Fahl, MD, Kyle Petersen, PhD, Richard Drake, PhD,  Alesha Petitt, MA, Claira Ralston, MS and Kim Price, MA<br>
+		Modified by Jeffrey Fahl, MD, Michael Smith, PhD<br>
+		Figures used with permission from Drake: Gray's Atlas of Anatomy, 2nd Edition (Resources)</p>
+	</div>
+</footer>
+</html>
