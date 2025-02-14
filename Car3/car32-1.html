@@ -1,0 +1,147 @@
+﻿<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>CAR PART 3 Module 2</title>
+		<link href="../css/ModuleStyle.css" rel="stylesheet" type="text/css">	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">	
+			function goBack() {
+    			window.history.back();
+			}
+		
+			function unhide(divID) {
+				var item = document.getElementById(divID);
+				if (item) {
+					item.className=(item.className=='hidden')?'unhidden':'hidden';
+				}
+			}
+			
+			$(document).ready(function() {
+				$("#step3").click(function(){$("#step3Y").toggleClass("stepHighlightOn");})
+			});
+			
+		</script>
+	</head>
+
+<body>
+	<div id="content">
+		<section id="headerBanner">
+			<header role="banner">
+				<a href="../lessons.html"><img src="../images/banner.png" alt="Albany Medical College Virtual Anatomy Lab" width="100%"></a>
+			</header>
+		</section>
+		
+		<section id="headerContent">
+			<h1>CAR PART 3 Module 2</h1>
+		</section>
+		
+		<section id="objectiveContent">
+		<table class="details">
+				<tbody>
+					<tr valign="top">
+						<td style="padding: 0px 18px;"><h2>OBJECTIVES:</h2>
+							<p><span style="font-weight: bold">2.3.1 &nbsp;&nbsp;Follow</span> the course of a primary, secondary, and tertiary bronchus to at least one bronchopulmonary segment.</p>
+							<p><span style="font-weight: bold">2.3.2 &nbsp;&nbsp;Follow</span> the course of blood flow in the pulmonary arteries and the pulmonary veins on the hilar surface to at least one bronchopulmonary segment.</p>
+							<p><span style="font-weight: bold">2.3.3 &nbsp;&nbsp;Describe</span> the flow of lymph from each lung and the location of lymph nodes associated with the lung (whether or not they are seen on the images).</p>
+							<p><span style="font-weight: bold">2.3.4 &nbsp;&nbsp;Trace</span> the lymphatic drainage of the thoracic walls, pleura, and lungs.</p>
+							
+						</td>
+					</tr>	
+					<tr>
+						<td style="padding: 0px 18px;">
+							<h2>READINGS:</h2>
+							<p>Gray's Anatomy for Students (Fourth Edition): Pages: 125-247. See Green Highlighted sections for clinical correlation.</p>
+						</td>
+					</tr>
+				</tbody>		
+			</table>		
+
+		</section>
+
+		<section id="mainContent">
+			<h2>SECTRA TABLE WORK: Page 1 of 4</h2>
+			
+			
+						
+			<table class="lessonStepsTable">
+				<tbody>
+					<tr height="60px;">
+						<td valign="top" width="96px;"><a href="https://www.vhdissector.com/share/xam533" title="Trachea" style="color: white;"><button class="actionButton">Step 1</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Begin with the <span class="term">trachea</span>.</td>
+					</tr>
+					
+					<tr height="40px;">
+						<td valign="top" width="96px;"><a href="https://www.vhdissector.com/share/pky2aj" title="left and right main bronchi" style="color: white;"><button class="actionButton">Step 2</button></a></td>
+						<td valign="top" style="padding-top: 3px;">Add the <span class="term">left and right main bronchi</span>.</td>
+					</tr>
+
+				</tbody>
+			</table>
+			
+			<p>From here the bronchi divide into the lobar and then segmental bronchi.</p>
+			
+			<p>We will investigate each lobe separately. </p>
+			
+			<table class="lessonStepsTable">
+				<tbody>
+					
+					<tr height="60px;" >
+						<td valign="top"><button class="actionButton" id="step3">Step 3</button></td>
+						<td valign="top" style="padding-top: 9px;"><span class="stepHighlightOff" id="step3Y">Using the <span style="font-weight: bold">Highlight or Draw tool</span>, identify the location of the carina. Carina means keel (as in a ship). If you look at the carina with a bronchoscope (See picture below), there is a ridge on the interior of the bifrucation that looks like a keel of a boat.</span>
+						</td>
+			
+					
+					<tr height="40px;">
+						<td valign="top" width="96px;"><a href="https://www.vhdissector.com/share/k8dwt3" title="right side" style="color: white;"><button class="actionButton">Step 4</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Rotate to visualize the <span class="term">tracheobronchial tree </span> from the right side.</td>
+					</tr>
+				</tbody>
+			</table>
+			
+			<table >
+				<tbody>
+					<tr>
+						<td align="center"><a href="#Carina"><img src="images/carina.jpg" alt="Carina" /></a></td>
+						<td align="center"><a href="#Tree"><img src="images/tree.jpg" alt="Tree" /></a></td>
+					</tr>
+					<tr>
+						<td align="center"><span style="font-size: 10pt;">Tap on image to enlarge</span></td>
+						<td align="center"><span style="font-size: 10pt;">Tap on image to enlarge</span></td>
+					</tr>
+				</tbody>
+			</table>
+			
+			<a href="#_" class="lightbox" id="Carina"><img src="images/carina.jpg" alt="Carina"/></a>
+			<a href="#_" class="lightbox" id="Tree"><img src="images/tree.jpg" alt="Tree"/></a>
+						
+			
+						
+			
+			<table class="continueButtons" style="margin-top:100px;">
+				<tbody>
+				<tr height="200px" valign="top">
+		         	<!--<td align="left"><button class="button" onclick="goBack()">Back</button></td>-->
+					<td align="center"><a href="../lessons.html"><button class="button">Return to Lessons Index</button></a></td> 
+		        	<td align="right"><a href="car32-2.html"><button class="button">Continue</button></a></td></tr>
+		 		</tbody>
+			</table>
+
+		</section>
+	</div>
+</body>
+
+
+
+<footer>
+	<div id="footerContent">
+		<p>©AMC 2021 Version 2021.01.01<br>
+		Original Development by Jeffrey Fahl, MD, Kyle Petersen, PhD, Richard Drake, PhD,  Alesha Petitt, MA, Claira Ralston, MS and Kim Price, MA<br>
+		Modified by Jeffrey Fahl, MD, Michael Smith, PhD<br>
+		Figures used with permission from Drake: Gray's Atlas of Anatomy, 2nd Edition (Resources)</p>
+
+	</div>
+</footer>
+
+</html>

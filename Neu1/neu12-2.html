@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Neurology 1 - Blood Supply, Ventricles and Meninges</title>
+		<link href="../css/ModuleStyle.css" rel="stylesheet" type="text/css">	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">	
+			function goBack() {
+    			window.history.back();
+			}
+		
+			function unhide(divID) {
+				var item = document.getElementById(divID);
+				if (item) {
+					item.className=(item.className=='hidden')?'unhidden':'hidden';
+				}
+			}
+			
+			$(document).ready(function() {
+				$("#step2").click(function(){$("#step2Y").toggleClass("stepHighlightOn");})
+				$("#step3").click(function(){$("#step3Y").toggleClass("stepHighlightOn");})	
+			});
+				
+			
+		</script>
+	</head>
+
+
+<body>
+	<div id="content">
+		<section id="headerBanner">
+			<header role="banner">
+				<a href="../lessons.html"><img src="../images/banner.png" alt="Albany Medical College Virtual Anatomy Lab" width="100%"></a>
+			</header>
+		</section>
+		
+
+		
+		<section id="headerContent">
+			<h1>Neurology Lab 1 - Module 2 - Ventricles of the Brain: Page 2 of 2 </h1>			
+		</section>
+		
+		
+			<div id="modal01" class="modal" onclick="this.style.display='none'">
+  				<span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  				<div class="modal-content">
+    				<img id="img01" style="max-width:100%" alt="Image">
+ 		 		</div>
+			</div>
+		
+		<section id="mainContent">
+			
+			
+			
+			<table>
+				<tbody>
+					<tr>
+						<td><p class="lessonText"><span class="term">Cerebrospinal fluid (CSF)</span> flows through and around the brain. Cerebrospinal fluid is produced by the choroid plexes found in the lateral ventricles of both hemispheres of the brain. </p>
+						<p class="lessonText">The CSF flows through the <span class="term">Foramen of Monro</span> in each hemisphere, which drains the CSF into the third ventricle. The <span class="term">Aquiduct of Sylvius</span> takes the cerebrospinal fluid to the forth ventricle and subsequently into the sub-arachnoind space that surrounds both the brain and the spinal cord. </p>
+						<p class="lessonText">The connections from the fourth ventricle to the sub-arachnoid space are called the <span class="term">Foramen of Magendie and Luschka</span>. The arachnoind granulations re-absorb the cerebrospinal fluid back into the blood stream. </p>
+						</td>
+						</td>
+						<td width="60%" valign="top"><a href="#CSFFlow"><img src="images/csfflow.jpg" alt="CSF Flow" width="100%" /></a></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td align="center"><span style="font-size: 10pt;">Tap on image to enlarge</span></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<a href="#_" class="lightbox" id="CSFFlow"><img src="images/csfflow.jpg" alt="CSF Flow"/></a>
+	
+			<table class="questionBox" style="margin: 1em auto; margin-bottom: 24px; margin-top: 24px; width: 100%;">
+				<tbody>
+					<tr valign="middle">
+						<td width="40px;"><button class="answerButton" onClick="unhide('Q1')">?</button></td>
+						<td><p style="padding-left: 12px;">What would an obstruction of this flow pattern lead to?</p></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<div id="Q1" class="hidden">
+								<p class="lessonAnswer">An obstruction to this flow pattern could lead to a build up of cerebrospinal fluid proximal to the obstruction which is also known as hydrocephalus.</p>
+								
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+	
+			<table class="questionBox" style="margin: 1em auto; margin-bottom: 24px; margin-top: 24px; width: 100%;">
+				<tbody>
+					<tr valign="middle">
+						<td width="40px;"><button class="answerButton" onClick="unhide('Q2')">?</button></td>
+						<td><p style="padding-left: 12px;">Where are the most likely points of obstruction?</p></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<div id="Q2" class="hidden">
+								<p class="lessonAnswer">Foreman of Monro.</p>
+								<p class="lessonAnswer">Aquaduct of Sylvius.</p>
+								<p class="lessonAnswer">Foremen of Magendie and Luschka.</p>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			
+		</section>
+		<section>
+			<table class="continueButtons" style="margin-top:100px;">
+				<tbody>
+				<tr height="200px" valign="top">
+		         	<td align="left"><button class="button" onclick="goBack()">Back</button></td>
+					<td align="center"><a href="../lessons.html"><button class="button">Return to Lessons Index</button></a></td>
+		        	<td align="right"><a href="neu12-1.html"><button class="button">Return to Start</button></a></td></tr>
+		 		</tbody>
+			</table>
+
+		</section>
+	</div>	
+</body>
+	
+<footer>
+	<div id="footerContent">
+		<p>©AMC 2020 Version 2020.11.01<br>
+		Original Development by Jeffrey Fahl, MD, Kyle Petersen, PhD, Richard Drake, PhD,  Alesha Petitt, MA, Claira Ralston, MS and Kim Price, MA<br>
+		Modified by Jeffrey Fahl, MD, Michael Smith, PhD<br>
+		Figures used with permission from Drake: Gray's Atlas of Anatomy, 2nd Edition (Resources)</p>
+	</div>
+</footer>
+</html>

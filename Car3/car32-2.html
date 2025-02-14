@@ -1,0 +1,109 @@
+﻿<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>CAR PART 3 Module 2</title>
+		<link href="../css/ModuleStyle.css" rel="stylesheet" type="text/css">	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">	
+			function goBack() {
+    			window.history.back();
+			}
+		
+			function unhide(divID) {
+				var item = document.getElementById(divID);
+				if (item) {
+					item.className=(item.className=='hidden')?'unhidden':'hidden';
+				}
+			}
+			
+			$(document).ready(function() {
+				$("#step12").click(function(){$("#step12Y").toggleClass("stepHighlightOn");})
+			});
+			
+		</script>
+	</head>
+
+<body>
+	<div id="content">
+		<section id="headerBanner">
+			<header role="banner">
+				<a href="../lessons.html"><img src="../images/banner.png" alt="Albany Medical College Virtual Anatomy Lab" width="100%"></a>
+			</header>
+		</section>
+		
+		<section id="mainContent">
+			<h2>SECTRA TABLE WORK: Page 2 of 4</h2>
+			
+			<p>As you visualize each of the following segments, remember to rotate the tracheaobronchial tree to see it in three dimensional space.</p>
+			
+			<table class="lessonStepsTable">
+				<tbody>
+					<tr height="60px;">
+						<td valign="top" width="96px;"><a href="https://www.vhdissector.com/share/7yb9st" title="Right superior lobar" style="color: white;"><button class="actionButton" style="width: 91px;">Step 5</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">right superior lobar</span>.</td>
+					</tr>
+					
+					<tr height="60px;">
+						<td valign="top" width="96px;"><a href="https://www.vhdissector.com/share/wyye4j" title="Right superior segmental" style="color: white;"><button class="actionButton" style="width: 91px;">Step 6</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">right superior segmental</span>.</td>
+					</tr>
+					<tr height="60px;">
+						<td valign="top" width="96px;"><a href="https://www.vhdissector.com/share/h3cy5b" title="Right middle lobar" style="color: white;"><button class="actionButton" style="width: 91px;">Step 7</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">right middle lobar</span>.</td>
+					</tr>
+					<tr height="60px;">
+						<td valign="top" width="96px;"><a href="https://www.vhdissector.com/share/gft4ub" title="Right middle segmental" style="color: white;"><button class="actionButton" style="width: 91px;">Step 8</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">right middle segmental</span>.</td>
+					</tr>
+					<tr height="60px;">
+						<td valign="top" width="96px;"><a href="https://www.vhdissector.com/share/z7kt7e" title="Right inferior" style="color: white;"><button class="actionButton" style="width: 91px;">Step 9</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">right inferior</span>.</td>
+					</tr>
+					<tr height="60px;">
+						<td valign="top" width="96px;"><a href="https://www.vhdissector.com/share/fh5xjd" title="Right inferior segmental" style="color: white;"><button class="actionButton" style="width: 91px;">Step 10</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">right inferior segmental</span>.</td>
+					</tr>
+
+					<tr height="60px;">
+						<td valign="top" width="96px;"><a href="https://www.vhdissector.com/share/dh4rkh" title="Entire right bronchial tree" style="color: white;"><button class="actionButton">Step 11</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Visualize the <span class="term">entire right bronchial tree</span>.</td>
+					</tr>
+					
+					<tr height="60px;">
+						<td valign="top"><button class="actionButton" id="step12">Step 12</button></td>
+						<td valign="top" style="padding-top: 9px;"><span class="stepHighlightOff" id="step12Y">Compare the segmental bronchial tree to the drawing. Realize that the smaller bronchial segments are not visable in our cadaver. Try to visualize where each of the smaller bronchial segments arise.</span>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+			<img src="images/rightsegments.jpg" alt="Right segments"/>
+			
+			<table class="continueButtons" style="margin-top:20px;">
+				<tbody>
+				<tr height="200px" valign="top">
+		         	<td align="left"><button class="button" onclick="goBack()">Back</button></td>
+					<td align="center"><a href="../lessons.html"><button class="button">Return to Lessons Index</button></a></td> 
+		        	<td align="right"><a href="car32-3.html"><button class="button">Continue</button></a></td></tr>
+		 		</tbody>
+			</table>
+
+		</section>
+	</div>
+</body>
+
+
+
+<footer>
+	<div id="footerContent">
+		<p>©AMC 2021 Version 2021.01.01<br>
+		Original Development by Jeffrey Fahl, MD, Kyle Petersen, PhD, Richard Drake, PhD,  Alesha Petitt, MA, Claira Ralston, MS and Kim Price, MA<br>
+		Modified by Jeffrey Fahl, MD, Michael Smith, PhD<br>
+		Figures used with permission from Drake: Gray's Atlas of Anatomy, 2nd Edition (Resources)</p>
+
+	</div>
+</footer>
+
+</html>

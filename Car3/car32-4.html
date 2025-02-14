@@ -1,0 +1,149 @@
+﻿<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>CAR PART 3 Module 2</title>
+		<link href="../css/ModuleStyle.css" rel="stylesheet" type="text/css">	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">	
+			function goBack() {
+    			window.history.back();
+			}
+		
+			function unhide(divID) {
+				var item = document.getElementById(divID);
+				if (item) {
+					item.className=(item.className=='hidden')?'unhidden':'hidden';
+				}
+			}
+			
+			$(document).ready(function() {
+				$("#step26").click(function(){$("#step26Y").toggleClass("stepHighlightOn");})
+			});
+				
+			
+		</script>
+	</head>
+
+<body>
+	<div id="content">
+		<section id="headerBanner">
+			<header role="banner">
+				<a href="../lessons.html"><img src="../images/banner.png" alt="Albany Medical College Virtual Anatomy Lab" width="100%"></a>
+			</header>
+		</section>
+		
+		<section id="mainContent">
+			<h2>SECTRA TABLE WORK: Page 4 of 4</h2>
+			
+			
+			
+			
+			
+			
+			<table class="lessonStepsTable">
+				<tbody>
+					<tr height="60px;">
+						<td valign="top" width="96px;"><a href="https://www.vhdissector.com/share/yar9gm" title="Entire tracheobronchial tree" style="color: white;"><button class="actionButton">Step 21</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">entire tracheobronchial tree</span>.</td>
+					</tr>
+
+					<tr height="60px;">
+						<td valign="top" width="96px;"><a href="https://www.vhdissector.com/share/xzr9yt" title="Left and right pulmonary arteries" style="color: white;"><button class="actionButton">Step 22</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">left and right pulmonary arteries</span> and their branches.</td>
+					</tr>
+					<tr height="40px;">
+						<td valign="top" width="96px;"><a href="https://www.vhdissector.com/share/6zvtwd" title="Left and right pulmonary veins" style="color: white;"><button class="actionButton">Step 23</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">left and right pulmonary veins</span> and their branches.</td>
+					</tr>
+				</tbody>
+			</table>
+			
+			<table class="questionBox" style="margin: 1em auto; margin-bottom: 24px; margin-top: 24px; width: 100%;">
+				<tbody>
+					<tr valign="middle">
+						<td width="40px;"><button class="answerButton" onClick="unhide('Q1')">?</button></td>
+						<td><p style="padding-left: 12px;">As with other organs of the body, the vascular supply follows the path of the ducts and nerves that supply those organs. What would be the smallest part of the lung that could be easily removed during surgery? </p></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<div id="Q1" class="hidden">
+								<p class="questionBoxAnswer">A Bronchopulmonary segment is the smallest functionally independent region of the lung. It is also the smallest area of the lung that can be removed and not affect an adjacent region of the lung.</p>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+			
+			
+			<table style="padding: 0 15px; float: right;" width="40%">
+				<tbody>
+					<tr>	
+						<td><a href="#Lymphatics"><img src="images/lymphatics.jpg" alt="Lymphatics" class="thumbnail"/></a></td>
+					</tr>
+					<tr height="40px;" valign="top">
+						<td colspan="2" style="text-align: center; font-size: 10pt;">Tap on image to enlarge</td>
+					</tr>
+				</tbody>
+			</table>
+			
+			
+			<a href="#_" class="lightbox" id="Lymphatics"><img src="images/lymphatics.jpg" alt="Lymphatics"/></a>
+			
+			<table class="lessonStepsTable">
+				<tbody>
+					<tr height="40px;">
+						<td valign="top" width="96px;" rowspan="2"><a href="https://www.vhdissector.com/share/gth8yr" title="Hilar and tracheal lymphnodes" style="color: white;"><button class="actionButton">Step 24</button></a></td>
+						<td valign="top" style="padding-top: 3px;">Add the <span class="term">hilar, tracheal, and cervical lymph nodes</span>. The mandible, clavicals and 1st ribs are added for orientation.</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+			
+			
+			
+			<table class="questionBox" style="margin: 1em auto; margin-bottom: 24px; margin-top: 24px; width: 100%;">
+				<tbody>
+					<tr valign="middle">
+						<td width="40px;"><button class="answerButton" onClick="unhide('Q2')">?</button></td>
+						<td><p style="padding-left: 12px;">What is the relevance of the drainage of the lungs, thoracic wall and the neck to the diagnosis and treatment of cancer?</p></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<div id="Q2" class="hidden">
+								<p class="questionBoxAnswer">Since the lymph drainage of the lungs, thoracic wall, mediastinum and the neck, moves toward the neck. Often, the first signs of cancer in the thorax manifests as enlargement of neck lymph nodes.</p>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+			<table class="continueButtons" style="margin-top:100px;">
+				<tbody>
+				<tr height="200px" valign="top">
+		         	<td align="left"><button class="button" onclick="goBack()">Back</button></td>
+					<td align="center"><a href="../lessons.html"><button class="button">Return to Lessons Index</button></a></td> 
+		        	<td align="right"><a href="car32-1.html"><button class="button">Return to start</button></a></td></tr>
+		 		</tbody>
+			</table>
+
+		</section>
+	</div>
+</body>
+
+
+
+<footer>
+	<div id="footerContent">
+		<p>©AMC 2021 Version 2021.01.01<br>
+		Original Development by Jeffrey Fahl, MD, Kyle Petersen, PhD, Richard Drake, PhD,  Alesha Petitt, MA, Claira Ralston, MS and Kim Price, MA<br>
+		Modified by Jeffrey Fahl, MD, Michael Smith, PhD<br>
+		Figures used with permission from Drake: Gray's Atlas of Anatomy, 2nd Edition (Resources)</p>
+
+	</div>
+</footer>
+
+</html>
