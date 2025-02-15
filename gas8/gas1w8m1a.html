@@ -1,0 +1,118 @@
+﻿<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>GAS1: Lab 8 - Posterior Viscera - Retroperitoneum</title>
+		<link href="../css/ModuleStyle.css" rel="stylesheet" type="text/css">	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">	
+			function goBack() {
+    			window.history.back();
+			}
+		
+			function unhide(divID) {
+				var item = document.getElementById(divID);
+				if (item) {
+					item.className=(item.className=='hidden')?'unhidden':'hidden';
+				}
+			}
+			
+			$(document).ready(function() {
+				$("#step2").click(function(){
+					$("#step2Y").toggleClass("stepHighlightOn"); 
+				})				 
+			});
+				
+			
+		</script>
+	</head>
+
+<body>
+	<div id="content">	
+		<section id="headerBanner">
+			<header role="banner">
+				<a href="../lessons.html"><img src="../images/banner.png" alt="Albany Medical College Virtual Anatomy Lab" width="100%"></a>
+			</header>
+		</section>
+		
+		<section id="headerContent">
+			<h1>GAS1: Lab 8 - Posterior Viscera - Retroperitoneum</h1>
+		</section>
+		
+		<section id="objectiveContent">
+		<table class="details">
+				<tbody>
+					<tr valign="top">
+						<td style="padding: 0px 18px;"><h2>OBJECTIVES:</h2>
+							<p><span style="font-weight: bold">GAS1.8.1	Identify</span> the osseous landmarks and ligaments associated with the abdomen and their surface projections.</p>
+							
+							<p><span style="font-weight: bold">GASD1.8.2	Identify</span>  the surface projections of the diaphragm and the hiatuses, ligaments, crura and structures passing through it, (especially the esophagus) demonstrate its nerve (sensory and motor) supply, and its blood supply.  Show the other muscles comprising the posterior abdominal wall indicating the nerve supply and function.</p>
+							
+							<p><span style="font-weight: bold">GAS1.8.3	Trace</span> the flow of blood from the paired and unpaired arterial vessels to each of the abdominal organs and indicate possible collateral vascular pathways.</p>
+							
+							<p><span style="font-weight: bold">GAS1.8.4	Identify</span> parietal and visceral peritoneum and their major reflections.</p>
+							
+							<p><span style="font-weight: bold">GAS1.8.5	Indicate</span> which of the abdominal organs are inter-peritoneal or retro-peritoneal.  Identify the surface projections of each of the organs. </p>
+							<p><span style="font-weight: bold">GAS1.8.6	Identify</span> the parts and peritoneal coverings of the organs.</p>
+						</td>
+					</tr>	
+					<tr>
+						<td style="padding: 0px 18px;">
+							<h2>READINGS:</h2>
+							<p>Moore (Eighth Edition): Clinically Oriented Anatomy Pages: 439-447, 461-465, 488-491, 515-518.</p>
+						</td>
+					</tr>
+				</tbody>		
+			</table>		
+
+		</section>
+
+		<section id="mainContent">
+			<h2>Posterior Viscera - Retroperitoneum: Page 1 of 7</h2>
+			<table class="lessonStepsTable">
+				<tbody>
+					<tr height="60px;">
+						<td valign="top" width="90px;"><a href="https://www.vhdissector.com/share/gh7y3r" title="Skeleton of the Abdomen" style="color: white;"><button class="actionButton">Step 1</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Begin with the skeleton of the abdomen</td>
+					</tr>
+					<tr height="60px;" >
+						<td valign="top"><button class="actionButton" id="step2">Step 2</button></td>
+						<td valign="top" style="padding-top: 9px;"><span class="stepHighlightOff" id="step2Y">Using the <span style="font-weight: bold">Highlight or Draw tool</span>, identify the structures on the list.</span> Remember to mark each checkbox as you identify each structure:
+								<p><input type="checkbox" id="cb1" name="cb1"> <label for "cb1">Thoracic vertebrae TVII - TXII</label></p>
+								<p><input type="checkbox" id="cb2" name="cb2"> <label for "cb2"> Thoracic ribs TVIII - TXII</label></p>
+								<p><input type="checkbox" id="cb3" name="cb3"> <label for "cb3"> Lumbar vertebrae L1 - L5</label></p>
+								<p><input type="checkbox" id="cb4" name="cb4"> <label for "cb4"> Sacrum</label></p>
+								<p><input type="checkbox" id="cb5" name="cb5"> <label for "cb5"> Coccyx</label></p>
+								<p><input type="checkbox" id="cb6" name="cb6"> <label for "cb6"> Sacroiliac joint</label></p>
+								<p><input type="checkbox" id="cb7" name="cb7"> <label for "cb7"> Iliac fossa</label></p>
+								<p><input type="checkbox" id="cb8" name="cb8"> <label for "cb8"> Iliac spine or crest</label></p>
+								<p><input type="checkbox" id="cb9" name="cb9"> <label for "cb9"> Obturator foramen</label></p>
+								<p><input type="checkbox" style="margin-bottom: 36px;" id="cb10" name="cb10"> <label for "cb10"> Pubic symphysis </label></p></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table class="continueButtons">
+				<tbody>
+				<tr height="200px" valign="top">
+		         	<!--<td align="left"><button class="button" onclick="goBack()">Back</button></td>-->
+					<td align="center"><a href="../lessons.html"><button class="button">Return to Lessons Index</button></a></td>
+		        	<td align="right"><a href="gas1w8m1b.html"><button class="button">Continue</button></a></td></tr>
+		 		</tbody>
+			</table>
+
+		</section>
+	</div>
+</body>
+
+<footer>
+	<div id="footerContent">
+		<p>©UNLV School of Medicine 2019 Version 2019.01.07<br>
+		Developed by Jeffrey Fahl, MD, Kyle Petersen, PhD, Richard Drake, PhD,  Alesha Petitt, MA, Claira Ralston, MS, and Kim Price, MA<br>
+		Figures used with permission from Drake: Gray's Atlas of Anatomy, 2nd Edition (Resources)</p>
+	</div>
+</footer>
+
+</html>
+
