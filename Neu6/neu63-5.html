@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Neurology 6 - Orbit</title>
+		<link href="../css/ModuleStyle.css" rel="stylesheet" type="text/css">	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">	
+			function goBack() {
+    			window.history.back();
+			}
+		
+			function unhide(divID) {
+				var item = document.getElementById(divID);
+				if (item) {
+					item.className=(item.className=='hidden')?'unhidden':'hidden';
+				}
+			}
+			
+			$(document).ready(function() {
+				$("#step2").click(function(){$("#step2Y").toggleClass("stepHighlightOn");})
+				$("#step3").click(function(){$("#step3Y").toggleClass("stepHighlightOn");})	
+			});
+				
+			
+		</script>
+	</head>
+
+
+<body>
+	<div id="content">
+		<section id="headerBanner">
+			<header role="banner">
+				<a href="../lessons.html"><img src="../images/banner.png" alt="Albany Medical College Virtual Anatomy Lab" width="100%"></a>
+			</header>
+		</section>
+		
+
+		
+		<section id="headerContent">
+			<h1>Neurology Lab 6 - Module 3 - Orbit - Blood and Nerve Supply: Page 5 of 5 </h1>			
+		</section>
+		
+		
+			<div id="modal01" class="modal" onclick="this.style.display='none'">
+  				<span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  				<div class="modal-content">
+    				<img id="img01" style="max-width:100%" alt="Image">
+ 		 		</div>
+			</div>
+		
+		<section id="mainContent">
+			
+			<table style="padding: 0 15px; float: right;" width="40%">
+				<tbody>
+					<tr>
+						<td><a href="#eyeballwo"><img src="images/eyeballwo.jpg" alt="eyeballwo" class="thumbnail" /></a></td>
+					</tr>
+					<tr>
+						<td align="center"><span style="font-size: 10pt;">Tap on image to enlarge</span></td>
+					</tr>
+				</tbody>
+				
+				<a href="#_" class="lightbox" id="eyeballwo"><img src="images/eyeballwo.jpg" alt="eyeballwo"/></a>
+			</table>
+			
+			<table>
+				<tbody>
+					<tr height="60px;" >
+						<td valign="top" width="100px;"><button class="actionButton" id="step3">Step 8</button></td>
+						<td valign="top" style="padding-top: 9px;"><span class="stepHighlightOff" id="step3Y"></span>Using the image as a guide, <span style="font-weight: bold">Identify</span> the following components of the eyeball:
+							<p class="checkboxlistitem"><input type="checkbox" id="cb1" name="cb1"> <label for="cb1"> Cornea</label></p>
+							<p class="checkboxlistitem"><input type="checkbox" id="cb2" name="cb2"> <label for="cb2"> Lens</label></p>
+							<p class="checkboxlistitem"><input type="checkbox" id="cb3" name="cb3"> <label for="cb3"> Sphincter pupillae</label></p>
+							<p class="checkboxlistitem"><input type="checkbox" id="cb4" name="cb4"> <label for="cb4"> Dilator pupillae</label></p>
+							<p class="checkboxlistitem"><input type="checkbox" id="cb5" name="cb5"> <label for="cb5"> Ciliary muscle</label></p>
+							<p class="checkboxlistitem"><input type="checkbox" id="cb6" name="cb6"> <label for="cb6"> Iris</label></p>
+							<p class="checkboxlistitem"><input type="checkbox" id="cb7" name="cb7"> <label for="cb7"> Central artery and vein</label></p>
+							<p class="checkboxlistitem"><input type="checkbox" id="cb8" name="cb8"> <label for="cb8"> Optic nerve</label></p>
+							<p class="checkboxlistitem"><input type="checkbox" id="cb9" name="cb9"> <label for="cb9"> Optic disc</label></p>
+							<p class="checkboxlistitem"><input type="checkbox" id="cb10" name="cb10"> <label for="cb10"> Retina</label></p>
+							<p class="checkboxlistitem"><input type="checkbox" id="cb11" name="cb11"> <label for="cb11"> Fovea centralis</label></p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+			<table class="questionBox" style="margin: 1em auto; margin-bottom: 24px; margin-top: 24px; width: 100%;">
+				<tbody>
+					<tr valign="middle">
+						<td width="40px;"><button class="answerButton" onClick="unhide('Q1')">?</button></td>
+						<td><p style="padding-left: 12px;">What is the function of the sphincter pupillae muscle?</p></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<div id="Q1" class="hidden">
+								<p class="questionBoxAnswer">Pupillary constriction.</p>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table class="questionBox" style="margin: 1em auto; margin-bottom: 24px; margin-top: 24px; width: 100%;">
+				<tbody>
+					<tr valign="middle">
+						<td width="40px;"><button class="answerButton" onClick="unhide('Q2')">?</button></td>
+						<td><p style="padding-left: 12px;">What are the afferent and efferent components of the pupillary light reflex?</p></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<div id="Q2" class="hidden">
+								<p class="questionBoxAnswer" style="margin-bottom: 6px;">Afferent = optic nerve CN II.</p>
+								<p class="questionBoxAnswer" style="margin-bottom: 24px;">Efferent = occulomotor nerve CN III.</p>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+			<table class="questionBox" style="margin: 1em auto; margin-bottom: 24px; margin-top: 24px; width: 100%;">
+				<tbody>
+					<tr valign="middle">
+						<td width="40px;"><button class="answerButton" onClick="unhide('Q3')">?</button></td>
+						<td><p style="padding-left: 12px;">What is the function of the ciliary muscles?</p></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<div id="Q3" class="hidden">
+								<p class="questionBoxAnswer">Accommodation of the lens for near vision.</p>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+			<table class="questionBox" style="margin: 1em auto; margin-bottom: 24px; margin-top: 24px; width: 100%;">
+				<tbody>
+					<tr valign="middle">
+						<td width="40px;"><button class="answerButton" onClick="unhide('Q4')">?</button></td>
+						<td><p style="padding-left: 12px;">Sympathetic innervation of the lacrimal gland, sphincter pupillae and the ciliary muscles is post-ganglionic. Where does this innervation originate?</p></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<div id="Q4" class="hidden">
+								<p class="questionBoxAnswer">The sympathetic plexus of the internal carotid artery.</p>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			
+		</section>
+		<section>
+			<table class="continueButtons" style="margin-top:100px;">
+				<tbody>
+				<tr height="200px" valign="top">
+		         	<td align="left"><button class="button" onclick="goBack()">Back</button></td>
+					<td align="center"><a href="../lessons.html"><button class="button">Return to Lessons Index</button></a></td>
+		        	<td align="right"><a href="neu63-1.html"><button class="button">Return to Start</button></a></td></tr>
+		 		</tbody>
+			</table>
+
+		</section>
+	</div>	
+</body>
+	
+<footer>
+	<div id="footerContent">
+		<p>©AMC 2020 Version 2020.11.01<br>
+		Original Development by Jeffrey Fahl, MD, Kyle Petersen, PhD, Richard Drake, PhD,  Alesha Petitt, MA, Claira Ralston, MS and Kim Price, MA<br>
+		Modified by Jeffrey Fahl, MD, Michael Smith, PhD<br>
+		Figures used with permission from Drake: Gray's Atlas of Anatomy, 2nd Edition (Resources)</p>
+	</div>
+</footer>
+</html>
