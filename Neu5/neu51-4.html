@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Neurology 5 - Face and Infratemporal Fossa</title>
+		<link href="../css/ModuleStyle.css" rel="stylesheet" type="text/css">	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">	
+			function goBack() {
+    			window.history.back();
+			}
+		
+			function unhide(divID) {
+				var item = document.getElementById(divID);
+				if (item) {
+					item.className=(item.className=='hidden')?'unhidden':'hidden';
+				}
+			}
+			
+			$(document).ready(function() {
+				$("#step2").click(function(){$("#step2Y").toggleClass("stepHighlightOn");})
+				$("#step3").click(function(){$("#step3Y").toggleClass("stepHighlightOn");})	
+			});
+				
+			
+		</script>
+	</head>
+
+
+<body>
+	<div id="content">
+		<section id="headerBanner">
+			<header role="banner">
+				<a href="../lessons.html"><img src="../images/banner.png" alt="Albany Medical College Virtual Anatomy Lab" width="100%"></a>
+			</header>
+		</section>
+		
+
+		
+		<section id="headerContent">
+			<h1>Neurology 5 - Face - Muscles: Page 4 of 7 </h1>			
+		</section>
+		
+		
+			<div id="modal01" class="modal" onclick="this.style.display='none'">
+  				<span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  				<div class="modal-content">
+    				<img id="img01" style="max-width:100%" alt="Image">
+ 		 		</div>
+			</div>
+		
+		<section id="mainContent">
+			
+			<table style="padding: 0 15px; float: right;" width="40%">
+				<tbody>
+					<tr>
+						<td><a href="#facialmuscles"><img src="images/facialmuscles.jpg" alt="facialmuscles" class="thumbnail" /></a></td>
+					</tr>
+					<tr>
+						<td align="center"><span style="font-size: 10pt;">Tap on image to enlarge</span></td>
+					</tr>
+				</tbody>
+				
+				<a href="#_" class="lightbox" id="facialmuscles"><img src="images/facialmuscles.jpg" alt="facialmuscles"/></a>
+			</table>
+			
+			<h4>As you add muscles to the face, try to make your facial muscles function as the added muscle.</h4>
+			
+					
+			<h4 style="margin-top: 24px; margin-bottom: 12px">The oral group consists of the following:</h4>
+			
+			<table class="lessonStepsTable" style="margin-left: 24px;">
+				<tbody>
+					
+					<tr height="60px;">
+						<td valign="top" width="100px;"><a href="https://www.vhdissector.com/share/z9s9zk" title="depressor anguli oris" style="color: white;"><button class="actionButton">Step 8</button></a></td>
+						<td valign="top" style="padding-top: 9px;">The <span class="term">depressor anguli oris</span> which draws the corner of the mouth downward and laterally.</td>
+					</tr>
+					
+					<tr height="60px;">
+						<td valign="top" width="100px;"><a href="https://www.vhdissector.com/share/hzq3wx" title="depressor labii inferioris" style="color: white;"><button class="actionButton">Step 9</button></a></td>
+						<td valign="top" style="padding-top: 9px;">The <span class="term">depressor labii inferioris</span> which draws the lower lip downward and laterally.</td>
+					</tr>
+					
+					<tr height="60px;">
+						<td valign="top" width="100px;"><a href="https://www.vhdissector.com/share/zfvn96" title="mentalis" style="color: white;"><button class="actionButton" onClick="unhide('S10')">Step 10</button></a></td>
+						<td valign="top" style="padding-top: 9px;">The <span class="term">mentalis</span> which raises and protrudes the lower lip and wrinkles the skin of the chin.<br>
+							<div id="S10" class="hidden"><img src="images/frown.jpg" alt="frown" /></div></td>
+					</tr>
+
+				</tbody>
+			</table>
+
+			
+		</section>
+		<section>
+			<table class="continueButtons" style="margin-top:100px;">
+				<tbody>
+				<tr height="200px" valign="top">
+		         	<td align="left"><button class="button" onclick="goBack()">Back</button></td>
+					<td align="center"><a href="../lessons.html"><button class="button">Return to Lessons Index</button></a></td>
+		        	<td align="right"><a href="neu51-5.html"><button class="button">Continue</button></a></td></tr>
+		 		</tbody>
+			</table>
+
+		</section>
+	</div>	
+</body>
+	
+<footer>
+	<div id="footerContent">
+		<p>©AMC 2020 Version 2020.11.01<br>
+		Original Development by Jeffrey Fahl, MD, Kyle Petersen, PhD, Richard Drake, PhD,  Alesha Petitt, MA, Claira Ralston, MS and Kim Price, MA<br>
+		Modified by Jeffrey Fahl, MD, Michael Smith, PhD<br>
+		Figures used with permission from Drake: Gray's Atlas of Anatomy, 2nd Edition (Resources)</p>
+	</div>
+</footer>
+</html>
